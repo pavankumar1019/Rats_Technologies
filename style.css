@@ -194,7 +194,7 @@ ul {
 
 .info-h{
   position: absolute;
-  top: 40%; right: 50%;
+  top: 60%; right: 50%;
   transform: translate(50%,-50%);
   color:#707070;
 
