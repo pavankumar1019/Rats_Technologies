@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="2558" height="2558" viewBox="0 0 2558 2558">
+  <defs>
+    <style>
+      .cls-1 {
+        clip-path: url(#clip-Web_1920_3);
+      }
+
+      .cls-2 {
+        fill: #ff0;
+      }
+    </style>
+    <clipPath id="clip-Web_1920_3">
+      <rect width="2558" height="2558"/>
+    </clipPath>
+  </defs>
+  <g id="Web_1920_3" data-name="Web 1920 – 3" class="cls-1">
+    <path id="Path_1" data-name="Path 1" class="cls-2" d="M41.5,854.067l239.52,157.63,323.162-126.1,277.539,31.526L1037.6,1011.7l273.737-45.856,197.7,80.248L1744.754,994.5l167.284,128.97L2037.5,965.84l220.511-80.248,193.9,51.588,148.274-65.918,39.006,2548.49H-39.637L-68.874,979.794V917.119Z" transform="matrix(1, 0.017, -0.017, 1, 31.439, -790.104)"/>
+  </g>
+</svg>
