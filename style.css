@@ -213,7 +213,7 @@ ul {
 }
 .info-h2{
   position: absolute;
-  top: 170%; right: 50%;
+  top: 150%; right: 50%;
   transform: translate(50%,-50%);
   color:#707070;
  }
