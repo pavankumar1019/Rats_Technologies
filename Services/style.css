@@ -226,15 +226,6 @@ ul {
    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
  }
  
- .contain4{
- 
-   display: flex;
-   justify-content: center;
-   align-items: center;
-   text-align: justify;
- }
- 
-
 
  .contain5{
   height: 70vh;
