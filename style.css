@@ -259,6 +259,7 @@ ul {
   justify-content: center;
   align-items: center;
   text-align: center;
+  position: relative;
 }
 .contain6{
   min-height: 100vh;
