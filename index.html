@@ -19,9 +19,35 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/5.4.5/css/swiper.min.css" integrity="sha512-uCQmAoax6aJTxC03VlH0uCEtE0iLi83TW1Qh6VezEZ5Y17rTrIE+8irz4H4ehM7Fbfbm8rb30OkxVkuwhXxrRg==" crossorigin="anonymous" />
 
     <title>RATS TECHNOLOGIES</title>
+    <style> 
+      #loader { 
+          border: 12px solid #f3f3f3; 
+          border-radius: 50%; 
+          border-top: 12px solid #444444; 
+          width: 70px; 
+          height: 70px; 
+          animation: spin 1s linear infinite; 
+      } 
+        
+      @keyframes spin { 
+          100% { 
+              transform: rotate(360deg); 
+          } 
+      } 
+        
+      .center { 
+          position: absolute; 
+          top: 0; 
+          bottom: 0; 
+          left: 0; 
+          right: 0; 
+          margin: auto; 
+      } 
+  </style> 
   </head>
   <body>
-    <div class="container-fluid contain">
+    <div id="loader" class="center"></div> 
+       <div class="container-fluid contain">
       <!-- nav-bar -->
       <div class="navbar">
         <div class="menu">
@@ -260,6 +286,20 @@
         });
      </script>
  
- 
+ <script> 
+  document.onreadystatechange = function() { 
+      if (document.readyState !== "complete") { 
+          document.querySelector( 
+            "body").style.visibility = "hidden"; 
+          document.querySelector( 
+            "#loader").style.visibility = "visible"; 
+      } else { 
+          document.querySelector( 
+            "#loader").style.display = "none"; 
+          document.querySelector( 
+            "body").style.visibility = "visible"; 
+      } 
+  }; 
+</script> 
   </body>
 </html>
