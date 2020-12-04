@@ -5,6 +5,9 @@
   margin: 0;
   box-sizing: border-box;
 }
+html {
+  scroll-behavior: smooth;
+}
 
 body,
 button {
@@ -20,6 +23,7 @@ button {
  background-size:cover;
  background-position: 0 460px;
   overflow-x: hidden;
+  background-attachment: fixed;
 }
 
 .navbar {
@@ -194,7 +198,7 @@ ul {
 
 .info-h{
   position: absolute;
-  top: 55%; right: 50%;
+  top: 50%; right: 50%;
   transform: translate(50%,-50%);
   color:#707070;
 
@@ -223,32 +227,20 @@ ul {
  }
  
  .contain4{
-   height: 30vh;
+ 
    display: flex;
    justify-content: center;
    align-items: center;
-   text-align: center;
+   text-align: justify;
  }
-
-
- .swiper-container {
-   width: 400px;
-   height: 400px;
-  
- }
-
- .swiper-slide {
-   background-position: center;
-   background-size: cover;
- }
+ 
 
 
  .contain5{
   height: 70vh;
   display: flex;
   justify-content: center;
-  align-items: center;
-  text-align: center;
+
 }
 .contain6{
   min-height: 100vh;
