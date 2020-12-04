@@ -15,15 +15,10 @@ button {
 }
 
 .contain {
-  min-height: 100vh;
+  min-height: 80vh;
   width: 100%;
   background-color:whitesmoke;
-  background-image:url("../img/Web\ 1920\ –\ 3.svg") ;
- background-repeat: no-repeat;
- background-size:cover;
- background-position: 0 460px;
-  overflow-x: hidden;
-  background-attachment: fixed;
+
 }
 
 .navbar {
