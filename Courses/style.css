@@ -12,6 +12,7 @@ html {
 body,
 button {
   font-family: "Poppins", sans-serif;
+  visibility: hidden;
 }
 
 .contain {
