@@ -5,8 +5,11 @@
   margin: 0;
   box-sizing: border-box;
 }
+html { height: 100% ;}
+
 body{
   visibility: hidden;
+  height: 100% ;
 }
 body,
 button {
@@ -103,6 +106,7 @@ background-repeat: no-repeat;
 
 header {
   min-height: 100vh;
+  
   width: 100%;
  
   position: relative;
