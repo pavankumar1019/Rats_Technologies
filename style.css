@@ -267,14 +267,10 @@ ul {
   justify-content: center;
   align-items: center;
   text-align: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-attachment: fixed;
 }
 
 .contain6 {
-  min-height: 100vh;
+  min-height: 70vh;
   display: flex;
   justify-content: center;
   align-items: center;
