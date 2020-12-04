@@ -250,8 +250,11 @@ ul {
 
 
  .contain5{
-  
-  
+  min-height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 .contain6{
   min-height: 100vh;
