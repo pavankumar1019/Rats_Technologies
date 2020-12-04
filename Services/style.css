@@ -8,6 +8,9 @@
 html {
   scroll-behavior: smooth;
 }
+body{
+  visibility: hidden;
+}
 
 body,
 button {
@@ -224,7 +227,7 @@ ul {
 
  .about{
    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-   visibility: hidden;
+
  }
  
 

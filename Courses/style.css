@@ -6,13 +6,16 @@
   box-sizing: border-box;
 }
 html {
-  scroll-behavior: smooth;
+  scroll-behavior: smooth;about
+}
+body{
+  visibility: hidden;
 }
 
 body,
 button {
   font-family: "Poppins", sans-serif;
-  visibility: hidden;
+
 }
 
 .contain {
