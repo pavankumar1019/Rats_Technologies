@@ -46,7 +46,7 @@
   </head>
   <body>
     <div id="loader" class="center"></div> 
-    <div class="container-fluid contain">
+    <div class="container-fluid contain parallaxie"  data-parallaxie='{"size": "cover", "pos_x":"center", "speed":0.4, "offset":450}' style="background-image: url(../img/Web\ 1920\ –\ 3.svg);">
       <!-- nav-bar -->
       <div class="navbar">
         <div class="menu">
@@ -79,7 +79,7 @@
 
       <div class="container info-h">
 <div class="row mx-auto">
-<div class="col-12 col-lg-6 content1">
+<div class="container col-12 col-lg-6 content1">
   <div style="display: none;" id="headline1" >
     <!-- <h2  >Departure</h2> -->
     <h1 style="color: #000661;">Courses Offers.. </h1>
@@ -89,8 +89,8 @@
       <!-- have any query share with us -->
     </div>
 </div>
-<div class="col-12 col-lg-6 content2" style="overflow-x:hidden;">
-  <img class="img-fluid" width="500px" style="margin-left: 400px;" id="image" src="../img/Untitled-3.png" alt="">
+<div class="container col-12 col-lg-6 content2" style="overflow-x:hidden;">
+  <img class="img-fluid"  id="image" style="margin-left:400px;" src="../img/Untitled-3.png" alt="">
 </div>
 </div>
       </div>
@@ -329,7 +329,7 @@
   <!-- jquery -->
 <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
 
-
+<script src="./parallaxie.js"></script>
   <!-- jquery installation -->
   <script>
    $(window).on('load', function() {
@@ -351,6 +351,7 @@
               "body").style.visibility = "visible"; 
         } 
     }; 
+    $('.parallaxie').parallaxie();
   </script> 
   </body>
 </html>

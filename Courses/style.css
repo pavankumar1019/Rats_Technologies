@@ -6,7 +6,7 @@
   box-sizing: border-box;
 }
 html {
-  scroll-behavior: smooth;about
+  scroll-behavior: smooth;
 }
 body{
   visibility: hidden;
@@ -19,10 +19,14 @@ button {
 }
 
 .contain {
-  min-height: 80vh;
-  width: 100%;
-  background-color:whitesmoke;
-
+  height: 663px;
+  background-color: whitesmoke;
+   background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 0 460px;
+  -webkit-background-size: cover;
+  -webkit-background-position:0 460px;
+  overflow: hidden;
 }
 
 .navbar {
@@ -196,29 +200,17 @@ ul {
 
 
 .info-h{
-  position: absolute;
-  top: 50%; right: 50%;
-  transform: translate(50%,-50%);
   color:#707070;
 
  }
 
- .content1{
-  display: flex;
-  justify-content: center;
-  align-items: center;
- }
-
-.content2{
-  display: flex;
-  justify-content: right;
-  align-items: right;
-}
 .info-h2{
   position: absolute;
-  top: 170%; right: 50%;
-  transform: translate(50%,-50%);
-  color:#707070;
+  top: 170%;
+  right: 50%;
+  transform: translate(50%, -50%);
+  -webkit-transform: translate(50%, -50%);
+  color: #707070;
  }
 
  .about{
@@ -233,7 +225,7 @@ ul {
 
 }
 .contain6{
-  min-height: 100vh;
+  min-height: 60vh;
   display: flex;
   justify-content: center;
   align-items: center;
