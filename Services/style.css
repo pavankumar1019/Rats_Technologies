@@ -18,15 +18,15 @@ button {
 }
 
 .contain {
-  min-height: 100vh;
-  width: 100%;
-  background-color:whitesmoke;
-  background-image:url("../img/Web\ 1920\ –\ 3.svg") ;
- background-repeat: no-repeat;
- background-size:cover;
- background-position: 0 460px;
-  overflow-x: hidden;
+  height: 663px;
+  background-color: whitesmoke;
   background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 0 460px;
+  -webkit-background-size: cover;
+  -webkit-background-position:0 460px;
+  overflow: hidden;
 }
 
 .navbar {
@@ -200,9 +200,6 @@ ul {
 
 
 .info-h{
-  position: absolute;
-  top: 50%; right: 50%;
-  transform: translate(50%,-50%);
   color:#707070;
 
  }
@@ -232,9 +229,17 @@ ul {
  
 
  .contain5{
-  height: 70vh;
+  height: 464.1px;
   display: flex;
   justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-attachment: fixed, scroll;
+  background-repeat: no-repeat, no-repeat;
+  background-size: cover, 250px;
+  background-position: 0 460px, center;
+  -webkit-background-size: cover, 250px;
+  -webkit-background-position:0 460px, center;
 
 }
 .contain6{

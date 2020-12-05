@@ -3,11 +3,15 @@
   <head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>RATS TECHNOLOGIES</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="Rats Technologies">
+    <meta name="viewport" content="width=device-width; initial-scale=1.0;">
 
+  
 
     <!-- Style's -->
-<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="./style.css">
 
 <!-- font-awesome -->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -17,7 +21,10 @@
 
     <!-- swiper for 3d -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/5.4.5/css/swiper.min.css" integrity="sha512-uCQmAoax6aJTxC03VlH0uCEtE0iLi83TW1Qh6VezEZ5Y17rTrIE+8irz4H4ehM7Fbfbm8rb30OkxVkuwhXxrRg==" crossorigin="anonymous" />
-    <title>RATS TECHNOLOGIES</title>
+   
+    <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+    
+    <script src="../parallaxie.js"></script>
     <style> 
       #loader { 
           border: 12px solid #f3f3f3; 
@@ -46,7 +53,7 @@
   </head>
   <body>
     <div id="loader" class="center"></div> 
-    <div class="container-fluid contain">
+    <div class="container-fluid contain" style="  background-image: url('../img/Web\ 1920\ –\ 3.svg'); -webkit-background-image: url('../img/Web\ 1920\ –\ 3.svg');">
       <!-- nav-bar -->
       <div class="navbar">
         <div class="menu">
@@ -77,9 +84,9 @@
       </div>
 
 
-      <div class="container info-h">
+      <div class="container-fluid info-h" style="margin-top:50px">
 <div class="row mx-auto">
-<div class="col-12 col-lg-6 content1">
+<div class="container col-12 col-lg-6 content1">
   <div style="display: none;" id="headline1" >
     <h2  >Departure</h2>
     <h1 style="color: #000661;">For New Beginning...</h1>
@@ -88,8 +95,8 @@
       <!-- <button type="button" class="btn btn-lg " style="background-color: #FFFF00;">CONTACT</button> -->
     </div>
 </div>
-<div class="col-12 col-lg-6 content2" style="overflow-x:hidden;">
-  <img class="img-fluid" width="500px" style="margin-left: 400px;" id="image" src="../img/Untitled-2.png" alt="">
+<div class="container col-12 col-lg-6 content2" style="overflow-x:hidden;">
+  <img class="img-fluid"  id="image" style="margin-left:400px;" src="../img/Untitled-2.png" alt="">
 </div>
 </div>
       </div>
@@ -106,7 +113,7 @@
 
         <div class="row mx-auto ">
           <div class="container-fluid col-12 col-lg-6"><img class="img-fluid" src="../img/fileservices4png-services-images-png-1920_745.png" alt=""></div>
-          <div class="container col-12 col-lg-6 about">
+          <div class="container-fluid col-12 col-lg-6 about">
             <h4 style="color: #4A4A4A"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 163 52">
               <text id="SERVICES" transform="translate(0 42)" fill="#4a4a4a" font-size="30" font-family="SegoeUIHistoric, Segoe UI Historic"><tspan x="0" y="0">SERVICES</tspan></text>
             </svg>
@@ -147,13 +154,7 @@
     
   </div>
 
-  <div class="container-fluid contain5" style="background-color:whitesmoke;  background-image: url(../img/Web\ 1920\ –\ 3.png), url(../img/unnamed.png);
-  background-size: cover, contain;
-  background-position: right bottom, left top;
-  background-repeat: no-repeat, no-repeat;
-  background-position: 0 460px,  0 100px ;
-  padding: 15px;
-   background-attachment: fixed, scroll;">
+  <div class="container-fluid contain5" style="background-color:whitesmoke;  background-image: url(../img/Web\ 1920\ –\ 3.png), url(../img/unnamed.png);">
     <!-- Swiper -->
    
   
@@ -279,7 +280,6 @@
   <script>
    $(window).on('load', function() {
       $("#headline1").fadeIn(2000);
-      $("#headline2").fadeIn(2000);
       $('#image').animate({margin : '0'}, "slow");
      });
   </script>
@@ -297,5 +297,44 @@
         } 
     }; 
   </script> 
+  <script>
+    $('.contain5').parallaxie({
+    
+      speed: 0.2,
+    
+    
+      repeat:'no-repeat',
+    
+     
+    
+    
+      size:'cover',
+    
+     
+     
+     
+       offset: 0,
+    
+    });
+    $('.contain').parallaxie({
+    
+    speed: 0.2,
+  
+  
+    repeat:'no-repeat',
+  
+   
+  
+  
+    size:'cover',
+  
+   
+   
+   
+     offset: 0,
+  
+  });
+    
+    </script>
   </body>
 </html>
