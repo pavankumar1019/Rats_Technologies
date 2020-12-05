@@ -232,8 +232,7 @@ ul {
   align-items: center;
   text-align: center;
   background-attachment: fixed, scroll;
-  background-repeat: no-repeat, no-repeat;
-  background-size: cover, 250px;
+   background-size: cover, 250px;
   background-position: 0 460px, center;
   -webkit-background-size: cover, 250px;
   -webkit-background-position:0 460px, center;
