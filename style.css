@@ -210,17 +210,7 @@ ul {
 
 }
 
-.content1 {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
 
-.content2 {
-  display: flex;
-  justify-content: right;
-  align-items: right;
-}
 
 .info-h2 {
   position: absolute;
