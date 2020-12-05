@@ -204,11 +204,6 @@ ul {
 
  }
 
- .content1{
-  display: flex;
-  justify-content: center;
-  align-items: center;
- }
 .info-h2{
   position: absolute;
   top: 170%;
