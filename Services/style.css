@@ -209,17 +209,13 @@ ul {
   justify-content: center;
   align-items: center;
  }
-
-.content2{
-  display: flex;
-  justify-content: right;
-  align-items: right;
-}
 .info-h2{
   position: absolute;
-  top: 170%; right: 50%;
-  transform: translate(50%,-50%);
-  color:#707070;
+  top: 170%;
+  right: 50%;
+  transform: translate(50%, -50%);
+  -webkit-transform: translate(50%, -50%);
+  color: #707070;
  }
 
  .about{
