@@ -228,7 +228,7 @@ ul {
 }
  
 .contain5 {
-  height: 464.1px;
+  min-height: 464.1px;
   display: flex;
   justify-content: center;
   align-items: center;
