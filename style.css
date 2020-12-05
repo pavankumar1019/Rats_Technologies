@@ -211,6 +211,7 @@ ul {
   top: 55%;
   right: 50%;
   transform: translate(50%, -50%);
+  -webkit-transform: translate(50%, -50%);
   color: #707070;
 
 }
@@ -267,11 +268,15 @@ ul {
   justify-content: center;
   align-items: center;
   text-align: center;
+  background-attachment: fixed;
+  background-size: cover;
+  -webkit-background-size: cover;
+  background-position: center;
+  -webkit-background-position:center;
 }
-#contain5{
-background-attachment: fixed;
 
-}
+
+
 
 .contain6 {
   min-height: 60vh;
