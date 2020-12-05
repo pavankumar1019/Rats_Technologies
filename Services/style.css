@@ -223,7 +223,13 @@ ul {
 
  }
  
+ .contain4 {
 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
  .contain5{
   height: 464.1px;
   display: flex;
@@ -239,7 +245,7 @@ ul {
 
 }
 .contain6{
-  min-height: 100vh;
+  min-height: 60vh;
   display: flex;
   justify-content: center;
   align-items: center;
