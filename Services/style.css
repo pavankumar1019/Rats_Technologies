@@ -225,19 +225,7 @@ ul {
   align-items: center;
   text-align: center;
 }
- .contain5{
-  height: 464.1px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  background-attachment: fixed, scroll;
-   background-size: cover, 250px;
-  background-position: 0 460px, center;
-  -webkit-background-size: cover, 250px;
-  -webkit-background-position:0 460px, center;
-
-}
+ 
 .contain6{
   min-height: 60vh;
   display: flex;
