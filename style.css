@@ -22,13 +22,16 @@ button {
 }
 
 .contain {
-  min-height: 100vh;
+  height: 100vh;
   background-color: whitesmoke;
   background-image: url("./img/Web\ 1920\ –\ 3.svg");
+  -webkit-background-image: url("./img/Web\ 1920\ –\ 3.svg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 0 460px;
-  overflow-x: hidden;
+  -webkit-background-size: cover;
+  -webkit-background-position:0 460px;
+  overflow: hidden;
 
 }
 
