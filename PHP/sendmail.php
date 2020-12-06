@@ -1,8 +1,8 @@
 <?php
 if(isset($_POST['message'])){
-    $to      = 'pavan5639kumar@gmail.com';
+    $to      = 'ratstechnologiez@gmail.com';
     $subject = "Rats Technologies"; 
-    $message = $_POST['message']."regards,".$_POST['sender_ema‌​il‌​']; 
+    $message = $_POST['message']; 
     $headers = "From: ".$_POST['sender_nam‌​e​']." <".$_POST['sender_em‌​ail‌​'].">\r\n"; $headers = "Reply-To: ".$_POST['sender_ema‌​il‌​']."\r\n"; 
     $headers = "Content-type: text/html; charset=iso-8859-1\r\n";
     'X-Mailer: PHP/' . phpversion();
