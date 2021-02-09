@@ -18,7 +18,7 @@ if(!isset($_SESSION['userData'])){
 
 </head>
 <body>
-<div class="container my-4">
+<div class="container my-4 border border-success">
 <h5>Upload Your Resume/CV - Rats Technologies</h5>
 <br>
 <form action="upload.php" method="post" enctype="multipart/form-data">
