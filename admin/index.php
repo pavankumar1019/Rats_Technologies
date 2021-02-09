@@ -477,19 +477,19 @@ $msg = "";
     <label for="inputPassword4" class="form-label">Title</label>
     <input type="text" oninput="javascript: if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);"
     type = "number"
-    maxlength = "50"  name="contact" class="form-control" id="inputPassword4" required>
+    maxlength = "50"  name="title" class="form-control" id="inputPassword4" required>
   </div>
 <div class="col-12">
     <label for="exampleFormControlTextarea1" class="form-label">Description max-200 characters</label>
     
-    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+    <textarea class="form-control" name="des" id="exampleFormControlTextarea1" rows="3"></textarea>
 
   </div>
   
 
   <div class="col-12">
   <label for="formFile" class="form-label">Upload logo</label>
-  <input class="form-control" id="formFile" type="file"  name="file" accept="application/pdf" required/>
+  <input class="form-control" id="formFile" type="file"  name="file" accept="image/*" required/>
   </div>
   <br>
   <div class="col-12">
