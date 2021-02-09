@@ -203,8 +203,8 @@ if(!isset($_SESSION['userData'])){
 <hr>
 <div class="d-flex dfkj">
     <div class="lkt40">
-        <img src="./Images/1.jpg" alt="">
-
+        
+<i class="fa fa-phone" aria-hidden="true"></i>
     </div>
     <div>
         Tayy_Eb Chaudhary
