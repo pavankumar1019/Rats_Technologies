@@ -558,7 +558,7 @@ $msg = "";
                                                         <button class="item" data-toggle="tooltip" data-placement="top" title="Edit">
                                                             <i class="zmdi zmdi-edit"></i>
                                                         </button> -->
-                                                        <form action="delete_staff.php" method="post" enctype="multipart/form-data">
+                                                        <form action="delete_post.php" method="post" enctype="multipart/form-data">
                                                         <input type="hidden" name="id" value="<?php echo $row["id"];?>">
                                                 
                                                         <button class="item" data-toggle="tooltip" data-placement="top" title="Delete">
