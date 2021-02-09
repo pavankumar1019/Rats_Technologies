@@ -34,7 +34,7 @@ if(isset($_POST['upload']))
     <input type="email" class="form-control" id="inputEmail4">
   </div>
   <div class="col-12">
-    <label for="inputPassword4" class="form-label">Contact</label>
+    <label for="inputPassword4" class="form-label">Contact Number</label>
     <input type="text" class="form-control" id="inputPassword4">
   </div>
   <div class="col-12">
