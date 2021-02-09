@@ -73,10 +73,11 @@ if(!isset($_SESSION['userData'])){
     <h5 class="text-center pt-3">
     <?= $_SESSION['userData']['f_name']." ".$_SESSION['userData']['l_name'] ?>
     </h5>
-    <p class="text-muted text-center" style=" text-align: justify;
+    <!-- <p class="text-muted text-center" style=" text-align: justify;
   text-justify: inter-word;" >
     <?= $_SESSION['userData']['email_id'] ?>
-    </p>
+    </p> -->
+    <p class="text-muted text-center">Welcome !</p>
     <hr>
     <a class="clor" href="../careers/logout.php"> <i class="fa fa-sign-out" aria-hidden="true">Sign-out</i></a>
     <!-- <div class="d-flex">
