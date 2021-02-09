@@ -204,11 +204,11 @@ if(!isset($_SESSION['userData'])){
 <div class="d-flex dfkj">
     <div class="lkt40">
         
-<i class="fa fa-phone" aria-hidden="true"></i>
+    <i class="fa fa-phone" aria-hidden="true"> &nbsp +91 9900651851</i>
     </div>
-    <div>
+    <!-- <div>
         Tayy_Eb Chaudhary
-    </div>
+    </div> -->
 </div>
 <hr>
 <div class="d-flex dfkj">
