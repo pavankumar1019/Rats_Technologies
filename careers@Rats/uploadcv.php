@@ -13,7 +13,7 @@ if(!isset($_SESSION['userData'])){
 
 </head>
 <body>
-<div class="container container my-4" style="width:70%;">
+<div class="container container my-8" style="width:70%;">
 <form action="upload.php" method="post" enctype="multipart/form-data">
 
 <div class="col-md-6">
