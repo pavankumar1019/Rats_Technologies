@@ -101,6 +101,7 @@ if(!isset($_SESSION['userData'])){
 </div>
 </div>
 <div class="col-md-6">
+    <h4>Off Campus Drive 2021 - Organized by Rats technologies </h4>
     <!-- <div class="jfheuf">
 <div class="d-flex justify-content-around">
     <div>
