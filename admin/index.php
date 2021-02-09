@@ -196,12 +196,12 @@ $msg = "";
                         </li>
                         <li>
                             <a href="table.php">
-                                <i class="fas fa-table"></i></a>
+                                <i class="fas fa-table"></i>CV Reports</a>
                         </li>
-                        <li>
+                        <!-- <li>
                             <a href="form.php">
-                                <i class="far fa-check-square"></i>CV Reports</a>
-                        </li>
+                                <i class="far fa-check-square"></i></a>
+                        </li> -->
                         <!-- <li>
                             <a href="calendar.php">
                                 <i class="fas fa-calendar-alt"></i>Gallery</a>
