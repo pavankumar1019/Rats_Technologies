@@ -146,7 +146,7 @@ if(!isset($_SESSION['userData'])){
 <div class="d-flex justify-content-around">
     <div>
         <!-- <i class="fa fa-heart"></i> -->
-        <i class="fa fa-upload" aria-hidden="true">Post Resume</i>
+        <i class="fa fa-upload" aria-hidden="true"> <a href="uploadcv.php"> Post Resume</a></i>
     </div>
     <!-- <div>
         <i class="fa fa-comment"></i>
