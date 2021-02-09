@@ -73,7 +73,7 @@ if(!isset($_SESSION['userData'])){
     <h5 class="text-center pt-3">
     <?= $_SESSION['userData']['f_name']." ".$_SESSION['userData']['l_name'] ?>
     </h5>
-    <p class="text-muted text-center">
+    <p class="text-muted text-center" style="font-size:2vw;">
     <?= $_SESSION['userData']['email_id'] ?>
     </p>
     <hr>
