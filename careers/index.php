@@ -11,7 +11,7 @@ $loginURL = filter_var($authUrl, FILTER_SANITIZE_URL);
 <html>
 <head>
 	<meta charset="UTF-8">
-	<title>Login & Registration with google using Php </title>
+	<title>Careers at Rats Technologies </title>
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
 <body>
@@ -21,13 +21,13 @@ $loginURL = filter_var($authUrl, FILTER_SANITIZE_URL);
 		</div>
 	</header>
 	<p class="main_title">
-		Login & Registration with google using Php 	<br/>
-		<a href="http://www.codecastra.com/login-with-google-using-php/"><small>← Back to article</small></a>
+		Login with google account<br/>
+		<a href="http://ratstechnologies.com/"><small>←Back to home page</small></a>
 	</p>
 	<section class="main">
 		<div class="inner">
 			<div class="img_p">
-				<img src="assets/image/lock3.png" class="img"> 
+				<img src="../img/rats logo black.png" class="img"> 
 			</div>
 			<p class="inner_p">
 				Let visitors easily authorize on your website with their Google account and save and utilize their data:)
@@ -35,7 +35,7 @@ $loginURL = filter_var($authUrl, FILTER_SANITIZE_URL);
 			<a href="<?= htmlspecialchars( $loginURL ); ?>"><img src="assets/image/login-google.png" class="fbbutton" alt="Login With Google"></a>
 		</div>
 	</section>
-	<section class="content content--related">
+	<!-- <section class="content content--related">
 		<p>If you enjoyed this demo you might also like:</p>
 		<a class="media-item" href="http://codecastra.com/login-with-facebook-using-php/">
 			<img class="media-item__img" src="assets/related/related_fb.png">
@@ -45,6 +45,6 @@ $loginURL = filter_var($authUrl, FILTER_SANITIZE_URL);
 			<img class="media-item__img" src="assets/related/related_twitter.png">
 			<h3 class="media-item__title">Login & Registration With  Twitter</h3>
 		</a>
-	</section>
+	</section> -->
 </body>
 </html>
