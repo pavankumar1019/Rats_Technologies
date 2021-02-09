@@ -1,6 +1,6 @@
 <?php
 include("./db/db.php");
-$sql = "SELECT * FROM slider_img";
+$sql = "SELECT * FROM post";
 $result = $conn->query($sql);
 $msg = "";
     ?>
@@ -509,7 +509,81 @@ $msg = "";
                                     <div class="au-card-inner">
                                         <h3 class="title-2 m-b-40">Post Jobs Here!</h3>
                                         <!-- <canvas id="sales-chart"></canvas> -->
-                                    
+                                        <table class="table table-data2">
+                                        <thead>
+                                            <tr>
+                                                <th>
+                                                    <label class="au-checkbox">
+                                                        <input type="checkbox">
+                                                        <span class="au-checkmark"></span>
+                                                    </label>
+                                                </th>
+                                                <th>id</th>
+                                               
+                                                <th>title</th>
+                                                <th>description</th>
+                                                <th>img</th>
+                                                <th></th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+
+                                        <?php
+                            if ($result->num_rows > 0) {
+                                // output data of each row
+                                while($row = $result->fetch_assoc()) {
+                                    // echo "<br> id: ". $row["id"]. " - Name: ". $row["firstname"]. " " . $row["lastname"] . "<br>";
+                                    ?>
+                                       <tr class="tr-shadow">
+                                                <td>
+                                                    <label class="au-checkbox">
+                                                        <input type="checkbox">
+                                                        <span class="au-checkmark"></span>
+                                                    </label>
+                                                </td>
+                                                <td><?php echo $row["id"];?> </td>
+                                                <td>
+                                                    <span class="block-email"><?php echo $row["title"];?></span>
+                                                </td>
+                                              
+                                                <td class="desc"><?php echo $row["description"];?></td>
+                                                <td><img src="../cv/<?php echo $row["img"];?>" alt="" style="width:80%;"></td>
+                                              
+                                              
+                                                <td>
+                                                    <div class="table-data-feature">
+                                                        <!-- <button class="item" data-toggle="tooltip" data-placement="top" title="Send">
+                                                            <i class="zmdi zmdi-mail-send"></i>
+                                                        </button>
+                                                        <button class="item" data-toggle="tooltip" data-placement="top" title="Edit">
+                                                            <i class="zmdi zmdi-edit"></i>
+                                                        </button> -->
+                                                        <form action="delete_staff.php" method="post" enctype="multipart/form-data">
+                                                        <input type="hidden" name="id" value="<?php echo $row["id"];?>">
+                                                
+                                                        <button class="item" data-toggle="tooltip" data-placement="top" title="Delete">
+                                                            <i class="zmdi zmdi-delete"></i>
+                                                        </button>
+                                                        </form>
+                                                        <!-- <button class="item" data-toggle="tooltip" data-placement="top" title="More">
+                                                            <i class="zmdi zmdi-more"></i>
+                                                        </button> -->
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                    <?php
+                                }
+                            } else {
+                                echo "0 results";
+                            }
+                            
+                            $conn->close();
+                            ?>
+                                            
+                                            
+                                           
+                                        </tbody>
+                                    </table>
                                   
                                 
                                     </div>
