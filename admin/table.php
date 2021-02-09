@@ -50,7 +50,7 @@ $msg = "";
                 <div class="container-fluid">
                     <div class="header-mobile-inner">
                         <a class="logo" href="index.html">
-                        <img style="width:20%;" src="images/icon/logo.jpg" alt="CoolAdmin" />
+                        <img style="width:20%;" src="../img/rats logo black.png" alt="CoolAdmin" />
                         </a>
                         <button class="hamburger hamburger--slider" type="button">
                             <span class="hamburger-box">
@@ -83,20 +83,13 @@ $msg = "";
                         </li>
                         <li>
                             <a href="index.php">
-                                <i class="fas fa-chart-bar"></i>Slider Images</a>
+                                <i class="fas fa-chart-bar"></i>Post Jobs</a>
                         </li>
                         <li>
                             <a href="table.php">
-                                <i class="fas fa-table"></i>Course</a>
+                                <i class="fas fa-table"></i>CV Reports</a>
                         </li>
-                        <li>
-                            <a href="form.php">
-                                <i class="far fa-check-square"></i>Staff</a>
-                        </li>
-                        <li>
-                            <a href="calendar.php">
-                                <i class="fas fa-calendar-alt"></i>Gallery</a>
-                        </li>
+                      
                         <!-- <li>
                             <a href="map.html">
                                 <i class="fas fa-map-marker-alt"></i>Maps</a>
@@ -165,7 +158,7 @@ $msg = "";
         <aside class="menu-sidebar d-none d-lg-block">
             <div class="logo">
                 <a href="#">
-                <img style="width:50%;" src="images/icon/logo.jpg" alt="Cool Admin" />
+                <img style="width:50%;" src="../img/rats logo black.png" alt="Cool Admin" />
                 </a>
             </div>
             <div class="menu-sidebar__content js-scrollbar1">
@@ -191,11 +184,11 @@ $msg = "";
                         </li>
                         <li>
                             <a href="index.php">
-                                <i class="fas fa-chart-bar"></i>Slider Images</a>
+                                <i class="fas fa-chart-bar"></i>Post Jobs</a>
                         </li>
                         <li class="active">
                             <a href="table.php">
-                                <i class="fas fa-table"></i>Course</a>
+                                <i class="fas fa-table"></i>CV Reports</a>
                         </li>
                         <li>
                             <a href="form.php">
@@ -399,7 +392,7 @@ $msg = "";
                                 <div class="account-wrap">
                                     <div class="account-item clearfix js-item-menu">
                                         <div class="image">
-                                            <img src="images/icon/logo.jpg" alt="" />
+                                            <img src="../img/rats logo black.png" alt="" />
                                         </div>
                                         <div class="content">
                                             <a class="js-acc-btn" href="#">Admin</a>
@@ -408,7 +401,7 @@ $msg = "";
                                             <div class="info clearfix">
                                                 <div class="image">
                                                     <a href="#">
-                                                        <img src="images/icon/logo.jpg" alt="" />
+                                                        <img src="../img/rats logo black.png" alt="" />
                                                     </a>
                                                 </div>
                                                 <div class="content">
