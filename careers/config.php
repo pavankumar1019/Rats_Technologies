@@ -1,28 +1,33 @@
 <?php
 
-//config.php
-
-//Include Google Client Library for PHP autoload file
-require_once 'API/autoload.php';
-
-//Make object of Google API Client for call Google API
-$google_client = new Google_Client();
-
-//Set the OAuth 2.0 Client ID
-$google_client->setClientId('363629763607-6vr27rhvm5tibo6maaadp2vrgoukokra.apps.googleusercontent.com');
-
-//Set the OAuth 2.0 Client Secret key
-$google_client->setClientSecret('Q9olxkmS9LptnqoSouuATYDj');
-
-//Set the OAuth 2.0 Redirect URI
-$google_client->setRedirectUri('http://ratstechnologies.com/careers/');
-
-//
-$google_client->addScope('email');
-
-$google_client->addScope('profile');
-
-//start session on web page
 session_start();
+##### DB Configuration #####
+$servername = "localhost";
+$username = "u815129216_rats";
+$password = "B4t7RsQ=";
+$db = "u815129216_rats";
+
+##### Google App Configuration #####
+$googleappid = "363629763607-6vr27rhvm5tibo6maaadp2vrgoukokra.apps.googleusercontent.com"; 
+$googleappsecret = "Q9olxkmS9LptnqoSouuATYDj"; 
+// $redirectURL = "http://localhost:81/LoginwithGoogle/authenticate.php"; 
+$redirectURL = "http://ratstechnologies.com/careers/authenticate.php"; 
+
+##### Create connection #####
+$conn = new mysqli($servername, $username, $password, $db);
+if ($conn->connect_error) {
+    die("Connection failed: " . $conn->connect_error);
+}
+##### Required Library #####
+include_once 'src/Google/Google_Client.php';
+include_once 'src/Google/contrib/Google_Oauth2Service.php';
+
+$googleClient = new Google_Client();
+$googleClient->setApplicationName('Login to CodeCastra.com');
+$googleClient->setClientId($googleappid);
+$googleClient->setClientSecret($googleappsecret);
+$googleClient->setRedirectUri($redirectURL);
+
+$google_oauthV2 = new Google_Oauth2Service($googleClient);
 
 ?>
