@@ -11,7 +11,7 @@ if(isset($_POST['id'])) {
     }
     if ($retval) {
         echo "Deleted data successfully\n";
-        header('location:form.php');
+        header('location: index.php');
     }
 }
 ?>
