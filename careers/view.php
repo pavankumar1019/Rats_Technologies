@@ -4,7 +4,7 @@ if(!isset($_SESSION['userData'])){
 	header('location: index.php');
 }
 ?>
-<!DOCTYPE html>
+
 <html lang="en">
 <head>
   <meta charset="UTF-8">
