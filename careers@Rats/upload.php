@@ -29,7 +29,8 @@ if(isset($_POST['upload']))
   mysqli_query($conn,$sql);
   
   echo "File sucessfully upload";
-        
+
+  header('location: ../index.html');   
   
  }
  else
