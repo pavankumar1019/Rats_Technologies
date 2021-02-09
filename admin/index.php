@@ -471,14 +471,8 @@ $msg = "";
                                     
                                         <img src="../img/rats logo black.png" width="50%" alt="">
                                   
-                                    << action="upload.php" method="post" enctype="multipart/form-data">
-<input type="hidden" value="<?php 
-if(isset($_POST['upload']))
-{
-    echo $_POST['type'];
-}
+                                    <form action="upload.php" method="post" enctype="multipart/form-data">
 
-?>" name="job_profile" required>
 <div class="col-12">
     <label for="inputPassword4" class="form-label">Title</label>
     <input type="text" oninput="javascript: if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);"
@@ -502,7 +496,7 @@ if(isset($_POST['upload']))
   <button type="submit" class="btn btn-primary"  name="upload">Submit</button>
   </div>
   <br>
-</>
+</form>
                                     </div>
                                 </div>
                             </div>
