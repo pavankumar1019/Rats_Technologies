@@ -462,36 +462,24 @@ $msg = "";
                                 </div>
                             </div> -->
                            
-                            <?php
-                            if ($result->num_rows > 0) {
-                                // output data of each row
-                                while($row = $result->fetch_assoc()) {
-                                    // echo "<br> id: ". $row["id"]. " - Name: ". $row["firstname"]. " " . $row["lastname"] . "<br>";
-                                    ?>
+                           
                                        <div class="col-lg-12">
                                 <div class="au-card m-b-30">
                                     <div class="au-card-inner">
                                         <h3 class="title-2 m-b-40"><?php  echo $row["name"];?></h3>
                                         <!-- <canvas id="sales-chart"></canvas> -->
                                     
-                                        <img src="./img/<?php  echo $row["path"];?>" alt="">
+                                        <img src="../img/rats logo black.png" alt="">
                                   
                                     <form action="upload.php" method="post" enctype="multipart/form-data">
-                                    <input type="hidden" name="id" value="<?php echo $row["id"];?>">
+                                    <input type="hidden" name="id" value="">
   <input type="file" name="fileToUpload" id="fileToUpload" class="form-control form-control-lg">
   <input type="submit" value="Upload Image" name="submit"  class="btn btn-success">
 </form>
                                     </div>
                                 </div>
                             </div>
-                                    <?php
-                                }
-                            } else {
-                                echo "0 results";
-                            }
-                            
-                            $conn->close();
-                            ?>
+                                
                       
                              <br>
                             <!-- <div class="col-lg-6">
