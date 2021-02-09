@@ -283,7 +283,7 @@ $msg = "";
                                    
                                     <i class="zmdi zmdi-search"></i>
                                 </button> -->
-                                <h1>Evenings College</h1>
+                                <h1>Rats Technologies</h1>
                             </form>
                             <div class="header-button">
                                 <div class="noti-wrap">

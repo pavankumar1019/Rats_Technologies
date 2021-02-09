@@ -267,7 +267,7 @@ $msg = "";
                                 <button class="au-btn--submit" type="submit">
                                     <i class="zmdi zmdi-search"></i>
                                 </button> -->
-                                <h1>Evenings College</h1>
+                                <h1>Rats Technologies</h1>
                             </form>
                             <div class="header-button">
                                 <div class="noti-wrap">
@@ -470,9 +470,16 @@ $msg = "";
                                                     </label>
                                                 </th>
                                                 <th>id</th>
-                                                <th>name</th>
-                                                <th>description</th>
-                                                <th>path</th>
+                                                <th>Full Name</th>
+                                                <th>Email</th>
+                                                <th>Contact</th>
+                                                <th>Address</th>
+                                                <th>Skills</th>
+                                                <th>Languages</th>
+                                                <th>City</th>
+                                                <th>Job profile</th>
+                                                <th>Date	</th>
+                                                <th>resume	</th>
                                                 <th></th>
                                             </tr>
                                         </thead>
@@ -493,12 +500,23 @@ $msg = "";
                                                 </td>
                                                 <td><?php echo $row["id"];?> </td>
                                                 <td>
-                                                    <span class="block-email"><?php echo $row["name"];?></span>
+                                                    <span class="block-email"><?php echo $row["full_name"];?></span>
                                                 </td>
-                                                <td class="desc"><?php echo $row["Discription"];?></td>
-                                                <td><img src="./img/<?php echo $row["path"];?>" alt="" style="width:80%;"></td>
-                                              
-                                              
+                                                <td>
+                                                    <span class="block-email"><?php echo $row["email"];?></span>
+                                                </td>
+                                                <td>
+                                                    <span class="block-email"><?php echo $row["contact"];?></span>
+                                                </td>
+                                                <td>
+                                                    <span class="block-email"><?php echo $row["address"];?></span>
+                                                </td>
+                                                <td class="desc"><?php echo $row["skills"];?></td>
+                                                <td class="desc"><?php echo $row["languages"];?></td>
+                                                <td class="desc"><?php echo $row["city"];?></td>
+                                                <td class="desc"><?php echo $row["job_profile"];?></td>
+                                                <td class="desc"><?php echo $row["date"];?></td>
+
                                                 <td>
                                                     <div class="table-data-feature">
                                                         <!-- <button class="item" data-toggle="tooltip" data-placement="top" title="Send">
@@ -507,13 +525,12 @@ $msg = "";
                                                         <button class="item" data-toggle="tooltip" data-placement="top" title="Edit">
                                                             <i class="zmdi zmdi-edit"></i>
                                                         </button> -->
-                                                        <form action="delete_course.php" method="post" enctype="multipart/form-data">
-                                                        <input type="hidden" name="id" value="<?php echo $row["id"];?>">
+                                                        
                                                 
-                                                        <button class="item" data-toggle="tooltip" data-placement="top" title="Delete">
-                                                            <i class="zmdi zmdi-delete"></i>
-                                                        </button>
-                                                        </form>
+                                                    
+                                                        <span class="iconify" data-icon="zmdi-eye" data-inline="false"><a href="../cv/<?php echo $row["resume"];?>">View</a></span>
+                                                     
+                                                     
                                                         <!-- <button class="item" data-toggle="tooltip" data-placement="top" title="More">
                                                             <i class="zmdi zmdi-more"></i>
                                                         </button> -->
