@@ -466,10 +466,10 @@ $msg = "";
                                        <div class="col-lg-12">
                                 <div class="au-card m-b-30">
                                     <div class="au-card-inner">
-                                        <h3 class="title-2 m-b-40"><?php  echo $row["name"];?></h3>
+                                        <h3 class="title-2 m-b-40">Post Jobs Here!</h3>
                                         <!-- <canvas id="sales-chart"></canvas> -->
                                     
-                                        <img src="../img/rats logo black.png" alt="">
+                                        <img src="../img/rats logo black.png" width="50%" alt="">
                                   
                                     <form action="upload.php" method="post" enctype="multipart/form-data">
                                     <input type="hidden" name="id" value="">
