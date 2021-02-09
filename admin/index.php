@@ -84,20 +84,20 @@ $msg = "";
                         </li>
                         <li>
                             <a href="index.php">
-                                <i class="fas fa-chart-bar"></i>Slider Images</a>
+                                <i class="fas fa-chart-bar"></i>Post Jobs</a>
                         </li>
                         <li>
                             <a href="table.php">
-                                <i class="fas fa-table"></i>Course</a>
+                                <i class="fas fa-table"></i>CV Reports</a>
                         </li>
-                        <li>
+                        <!-- <li>
                             <a href="form.php">
                                 <i class="far fa-check-square"></i>Staff</a>
                         </li>
                         <li>
                             <a href="calendar.php">
                                 <i class="fas fa-calendar-alt"></i>Gallery</a>
-                        </li>
+                        </li> -->
                         <!-- <li>
                             <a href="map.html">
                                 <i class="fas fa-map-marker-alt"></i>Maps</a>
@@ -192,20 +192,20 @@ $msg = "";
                         </li>
                         <li class="active">
                             <a href="index.php">
-                                <i class="fas fa-chart-bar"></i>Slider Images</a>
+                                <i class="fas fa-chart-bar"></i>Post Jobs</a>
                         </li>
                         <li>
                             <a href="table.php">
-                                <i class="fas fa-table"></i>Course</a>
+                                <i class="fas fa-table"></i></a>
                         </li>
                         <li>
                             <a href="form.php">
-                                <i class="far fa-check-square"></i>Staff</a>
+                                <i class="far fa-check-square"></i>CV Reports</a>
                         </li>
-                        <li>
+                        <!-- <li>
                             <a href="calendar.php">
                                 <i class="fas fa-calendar-alt"></i>Gallery</a>
-                        </li>
+                        </li> -->
                         <!-- <li>
                             <a href="map.html">
                                 <i class="fas fa-map-marker-alt"></i>Maps</a>
