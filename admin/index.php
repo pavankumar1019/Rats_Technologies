@@ -468,7 +468,7 @@ $msg = "";
                                 while($row = $result->fetch_assoc()) {
                                     // echo "<br> id: ". $row["id"]. " - Name: ". $row["firstname"]. " " . $row["lastname"] . "<br>";
                                     ?>
-                                       <div class="col-lg-6">
+                                       <div class="col-lg-12">
                                 <div class="au-card m-b-30">
                                     <div class="au-card-inner">
                                         <h3 class="title-2 m-b-40"><?php  echo $row["name"];?></h3>
