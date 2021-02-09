@@ -471,11 +471,38 @@ $msg = "";
                                     
                                         <img src="../img/rats logo black.png" width="50%" alt="">
                                   
-                                    <form action="upload.php" method="post" enctype="multipart/form-data">
-                                    <input type="hidden" name="id" value="">
-  <input type="file" name="fileToUpload" id="fileToUpload" class="form-control form-control-lg">
-  <input type="submit" value="Upload Image" name="submit"  class="btn btn-success">
-</form>
+                                    << action="upload.php" method="post" enctype="multipart/form-data">
+<input type="hidden" value="<?php 
+if(isset($_POST['upload']))
+{
+    echo $_POST['type'];
+}
+
+?>" name="job_profile" required>
+<div class="col-12">
+    <label for="inputPassword4" class="form-label">Title</label>
+    <input type="text" oninput="javascript: if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);"
+    type = "number"
+    maxlength = "10"  name="contact" class="form-control" id="inputPassword4" required>
+  </div>
+<div class="col-12">
+    <label for="exampleFormControlTextarea1" class="form-label">Description</label>
+    
+    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+
+  </div>
+  
+
+  <div class="col-12">
+  <label for="formFile" class="form-label">Upload logo</label>
+  <input class="form-control" id="formFile" type="file"  name="file" accept="application/pdf" required/>
+  </div>
+  <br>
+  <div class="col-12">
+  <button type="submit" class="btn btn-primary"  name="upload">Submit</button>
+  </div>
+  <br>
+</>
                                     </div>
                                 </div>
                             </div>
