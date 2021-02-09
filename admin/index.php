@@ -401,7 +401,7 @@ $msg = "";
                                 <div class="account-wrap">
                                     <div class="account-item clearfix js-item-menu">
                                         <div class="image">
-                                            <img src="images/icon/logo.jpg" alt="John Doe" />
+                                            <img src="../img/rats logo black.png" alt="John Doe" />
                                         </div>
                                         <div class="content">
                                             <a class="js-acc-btn" href="#">Admin</a>
@@ -410,7 +410,7 @@ $msg = "";
                                             <div class="info clearfix">
                                                 <div class="image">
                                                     <a href="#">
-                                                        <img src="images/icon/logo.jpg" alt="" />
+                                                        <img src="../img/rats logo black.png" alt="" />
                                                     </a>
                                                 </div>
                                                 <div class="content">
