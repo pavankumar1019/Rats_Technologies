@@ -1,6 +1,6 @@
 <?php
-include("./db/db.php");
-$sql = "SELECT * FROM course";
+include("../PHP/database.php");
+$sql = "SELECT * FROM cv";
 $result = $conn->query($sql);
 $msg = "";
     ?>
@@ -16,7 +16,7 @@ $msg = "";
     <meta name="keywords" content="au theme template">
 
     <!-- Title Page-->
-    <title>Tables</title>
+    <title>CV Reports</title>
 
     <!-- Fontfaces CSS-->
     <link href="css/font-face.css" rel="stylesheet" media="all">
@@ -436,33 +436,7 @@ $msg = "";
             <div class="main-content">
                 <div class="section__content section__content--p30">
                     <div class="container-fluid">
-                        <div class="row">
-                            <div class="col-lg-9">
-                                <div class="table-responsive table--no-card m-b-30">
-                                    <h2>Add Course</h2><br>
-                                <form action="add_course.php" method="post" enctype="multipart/form-data">
-  <div class="form-group row">
-    <label for="inputEmail3" class="col-sm-2 col-form-label">Course Name</label>
-    <div class="col-sm-10">
-      <input type="text" class="form-control" name="name" id="inputEmail3" placeholder="Course_name" required>
-    </div>
-  </div>
-  <div class="form-group row">
-    <label for="inputPassword3" class="col-sm-2 col-form-label" >Discription:-</label>
-    <div class="col-sm-10">
-        <p id="p">Max:-  150 Characters </p>
-    <textarea class="form-control " id="textBox1" name="discription" placeholder="Required example textarea" required></textarea>
-   <br>
-   Choose Image:-
-    <input type="file" name="fileToUpload" id="fileToUpload" class="form-control form-control-lg">
-    <br>
-    <button type="submit" class="btn btn-primary">ADD</button>
-    </div>
-    
-   </div>
-</form>
-                                </div>
-                            </div>
+              
                             <!--  -->
                         <div class="row">
                             <div class="col-lg-6">
@@ -476,7 +450,7 @@ $msg = "";
                         <div class="row">
                             <div class="col-md-12">
                                 <!-- DATA TABLE -->
-                                <h3 class="title-5 m-b-35">data table</h3>
+                                <h3 class="title-5 m-b-35">Reports</h3>
                                 <div class="table-data__tool">
                                     <div class="table-data__tool-left">
                                     
