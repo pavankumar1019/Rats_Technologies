@@ -56,7 +56,7 @@ if(!isset($_SESSION['userData'])){
             </li>
             <li class="nav-item">
                 <a class="nav-link" aria-current="page" href="#">
-                <i class="fa fa-sign-out" aria-hidden="true"><a class="clor" href="logout.php">Sign-out</a></i>
+                <i class="fa fa-sign-out" aria-hidden="true"><a class="clor" href="./careers/logout.php">Sign-out</a></i>
                 </a>
             </li>
         </ul>
@@ -77,7 +77,7 @@ if(!isset($_SESSION['userData'])){
     <?= $_SESSION['userData']['email_id'] ?>
     </p>
     <hr>
-    <i class="fa fa-sign-out" aria-hidden="true"><a class="clor" href="logout.php">Sign-out</a></i>
+    <i class="fa fa-sign-out" aria-hidden="true"><a class="clor" href="../careers/logout.php">Sign-out</a></i>
     <!-- <div class="d-flex">
         <div>
             <p>
