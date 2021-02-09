@@ -27,7 +27,7 @@ $loginURL = filter_var($authUrl, FILTER_SANITIZE_URL);
 	<section class="main">
 		<div class="inner">
 			<div class="img_p">
-				<img src="../img/rats logo black.png" class="img" width="70px"> 
+				<img src="../img/rats logo black.png" class="img" width="400px"> 
 			</div>
 			<p class="inner_p">
 				Let visitors easily authorize on your website with their Google account and save and utilize their data:)
