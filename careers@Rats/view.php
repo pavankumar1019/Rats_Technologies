@@ -148,7 +148,7 @@ if(!isset($_SESSION['userData'])){
         <form action="uploadcv.php"  method="post" enctype="multipart/form-data">
         <!-- <i class="fa fa-heart"></i> -->
         <input type="hidden" value="hello" name="type">
-        <i class="fa fa-upload" aria-hidden="true"> <button type="submit" name="upload">upload</button></i>
+        <button type="submit" class="btn btn-outline-success" name="upload">  <i class="fa fa-upload" aria-hidden="true"> upload</i></button>
         </form>
     </div>
     <!-- <div>
