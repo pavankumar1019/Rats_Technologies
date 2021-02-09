@@ -28,9 +28,11 @@ if(isset($_POST['upload']))
   $sql="INSERT INTO cv (full_name,email,contact,address,skills,languages,city,state,resume,job_profile) VALUES('".$_POST["name"]."','".$_POST["email"]."','".$_POST["contact"]."','".$_POST["address"]."','".$_POST["skills"]."','".$_POST["languages"]."','".$_POST["city"]."','".$_POST["state"]."','$final_file','".$_POST["job_profile"]."')";
   mysqli_query($conn,$sql);
   
-  echo "File sucessfully upload";
-  echo '<script>alert("Thank You ! Rats Technologies Will Update you Notification")</script>';
-  header('location: ../index.html');   
+  
+  echo "<script>
+alert('Thank You!. Rats technologies will notify updates');
+window.location.href='../index.html';
+</script>";  
   
  }
  else

@@ -153,7 +153,7 @@ $result = $conn->query($sql);
     </div> -->
     <div>
         <i class="fa fa-share"></i>
-        <a href="whatsapp://send?text=http://careers.ratstechnologies.com/" data-action="share/whatsapp/share">Share in Whatsapp</a>
+        <a href="whatsapp://send?text=http://ratstechnologies.com/careers" data-action="share/whatsapp/share">Share in Whatsapp</a>
     </div>
 </div>
 </div>
