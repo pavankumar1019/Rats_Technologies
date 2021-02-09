@@ -13,7 +13,9 @@ if(!isset($_SESSION['userData'])){
 
 </head>
 <body>
+<div class="container d-flex justify-content-center">
 <form action="upload.php" method="post" enctype="multipart/form-data">
+
 <div class="col-md-6">
     <label for="inputEmail4" class="form-label">Email</label>
     <input type="email" class="form-control" id="inputEmail4">
@@ -46,11 +48,12 @@ if(!isset($_SESSION['userData'])){
   <label for="formFile" class="form-label">Upload Resume/CV</label>
   <input class="form-control"  id="formFile" type="file" name="file" />
   </div>
+  <br>
   <div class="col-12">
   <button type="submit" class="btn btn-primary"  name="upload">upload</button>
   </div>
 </form>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
-
+</div>
 </body>
 </html>
