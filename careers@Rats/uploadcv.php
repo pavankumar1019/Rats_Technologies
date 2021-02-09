@@ -22,17 +22,17 @@ if(!isset($_SESSION['userData'])){
   </div>
   <div class="col-md-6">
     <label for="inputPassword4" class="form-label">Contact</label>
-    <input type="password" class="form-control" id="inputPassword4">
+    <input type="text" class="form-control" id="inputPassword4">
   </div>
-  <div class="col-12">
+  <div class="col-6">
     <label for="inputAddress" class="form-label">Address</label>
     <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
   </div>
-  <div class="col-12">
+  <div class="col-6">
     <label for="inputAddress" class="form-label">Skills</label>
     <input type="text" class="form-control" id="inputAddress" placeholder="Eg. Java, PHP, Digital Marketing..">
   </div>
-  <div class="col-12">
+  <div class="col-6">
     <label for="inputAddress" class="form-label">languages known</label>
     <input type="text" class="form-control" id="inputAddress" placeholder="Eg. Hindi, Kannada,Tamil..">
   </div>
