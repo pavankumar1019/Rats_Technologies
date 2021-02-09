@@ -30,6 +30,10 @@ if(isset($_POST['upload']))
 
 ?>">
 <div class="col-12">
+    <label for="inputEmail4" class="form-label">Full Name</label>
+    <input type="text" name="name" class="form-control" id="inputEmail4">
+  </div>
+<div class="col-12">
     <label for="inputEmail4" class="form-label">Email</label>
     <input type="email" name="email" class="form-control" id="inputEmail4">
   </div>
