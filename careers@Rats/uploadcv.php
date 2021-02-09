@@ -20,7 +20,7 @@ if(!isset($_SESSION['userData'])){
 <body>
 <div class="container my-4">
 <form action="upload.php" method="post" enctype="multipart/form-data">
-<input type="text" value="<?php 
+<input type="hidden" value="<?php 
 if(isset($_POST['upload']))
 {
     echo $_POST['type'];
