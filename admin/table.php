@@ -190,14 +190,7 @@ $msg = "";
                             <a href="table.php">
                                 <i class="fas fa-table"></i>CV Reports</a>
                         </li>
-                        <li>
-                            <a href="form.php">
-                                <i class="far fa-check-square"></i>Staff</a>
-                        </li>
-                        <li>
-                            <a href="calendar.php">
-                                <i class="fas fa-calendar-alt"></i>Gallery</a>
-                        </li>
+                      
                         <!-- <li>
                             <a href="map.php">
                                 <i class="fas fa-map-marker-alt"></i>Maps</a>
