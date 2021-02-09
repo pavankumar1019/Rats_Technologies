@@ -433,7 +433,7 @@ $msg = "";
             <!-- END HEADER DESKTOP-->
 
             <!-- MAIN CONTENT-->
-            <div class="main-content">
+            <div class="main-content"  style="overflow-x:auto;">
                 <div class="section__content section__content--p30">
                     <div class="container-fluid">
               
@@ -459,7 +459,7 @@ $msg = "";
                                     </div>
                                   
                                 </div>
-                                <div class="" style="overflow-x:auto;">
+                                <div  style="overflow-x:auto;">
                                     <table class="table table-data2">
                                         <thead>
                                             <tr>
