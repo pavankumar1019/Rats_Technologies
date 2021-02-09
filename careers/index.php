@@ -11,7 +11,7 @@ $loginURL = filter_var($authUrl, FILTER_SANITIZE_URL);
 <html>
 <head>
 	<meta charset="UTF-8">
-	<title>Careers at Rats Technologies </title>
+	<title>Careers with Rats Technologies </title>
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
 <body>
