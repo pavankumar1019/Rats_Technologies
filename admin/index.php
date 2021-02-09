@@ -51,7 +51,7 @@ $msg = "";
                 <div class="container-fluid">
                     <div class="header-mobile-inner">
                         <a class="logo" href="index.html">
-                            <img style="width:20%;" src="images/icon/logo.jpg" alt="CoolAdmin" />
+                            <img style="width:20%;" src="../img/rats logo black.png" alt="CoolAdmin" />
                         </a>
                         <button class="hamburger hamburger--slider" type="button">
                             <span class="hamburger-box">
@@ -166,7 +166,7 @@ $msg = "";
         <aside class="menu-sidebar d-none d-lg-block">
             <div class="logo">
                 <a href="#">
-                    <img style="width:50%;" src="images/icon/logo.jpg" alt="Cool Admin" />
+                    <img style="width:50%;" src="../img/rats logo black.png" alt="Cool Admin" />
                 </a>
             </div>
             <div class="menu-sidebar__content js-scrollbar1">
