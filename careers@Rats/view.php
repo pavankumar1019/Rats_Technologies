@@ -55,8 +55,8 @@ if(!isset($_SESSION['userData'])){
                margin-left: 8px;">
             </li>
             <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="#">
-                <i class="fa fa-sign-out" aria-hidden="true"><a class="clor" href="./careers/logout.php">Sign-out</a></i>
+                <a class="nav-link" aria-current="page" href="./careers/logout.php">
+                <i class="fa fa-sign-out" aria-hidden="true">Sign-out</i>
                 </a>
             </li>
         </ul>
