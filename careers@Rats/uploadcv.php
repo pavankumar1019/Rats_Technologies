@@ -39,8 +39,7 @@ if(isset($_POST['upload']))
   </div>
   <div class="col-12">
     <label for="inputPassword4" class="form-label">Contact Number</label>
-    <input type="number" oninput="javascript: if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);"
-    maxlength = "10"  name="contact" class="form-control" id="inputPassword4" required>
+    <input type="number" name="contact" class="form-control" id="inputPassword4" required>
   </div>
   <div class="col-12">
     <label for="inputAddress" class="form-label">Address</label>
