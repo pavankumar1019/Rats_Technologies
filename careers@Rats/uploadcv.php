@@ -13,7 +13,7 @@ if(!isset($_SESSION['userData'])){
 
 </head>
 <body>
-<div class="d-flex justify-content-center" style="width:500px;">
+<div class="container-fluid d-flex justify-content-center">
 <form action="upload.php" method="post" enctype="multipart/form-data">
 
 <div class="col-md-6">
