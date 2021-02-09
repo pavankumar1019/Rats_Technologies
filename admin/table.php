@@ -459,7 +459,7 @@ $msg = "";
                                     </div>
                                   
                                 </div>
-                                <div class="table-responsive table-responsive-data2">
+                                <div class="table-responsive table-responsive-data2" style="overflow: scroll;">
                                     <table class="table table-data2">
                                         <thead>
                                             <tr>
