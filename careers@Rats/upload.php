@@ -3,7 +3,7 @@ session_start();
 if(!isset($_SESSION['userData'])){
 	header('location: index.php');
 }
-include_once 'database.php';
+include_once '../PHP/database.php';
 if(isset($_POST['upload']))
 {   
      
@@ -28,7 +28,6 @@ if(isset($_POST['upload']))
   $sql="INSERT INTO image(file,type,size) VALUES('$final_file','$file_type','$new_size')";
   mysqli_query($conn,$sql);
   
- 
   echo "File sucessfully upload";
         
   

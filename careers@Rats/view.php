@@ -145,8 +145,10 @@ if(!isset($_SESSION['userData'])){
 </div>
 <div class="d-flex justify-content-around">
     <div>
+        <form action="uploadcv.php"  method="post" enctype="multipart/form-data">
         <!-- <i class="fa fa-heart"></i> -->
-        <i class="fa fa-upload" aria-hidden="true"> <a href="uploadcv.php"> Post Resume</a></i>
+        <i class="fa fa-upload" aria-hidden="true"> <button type="submit" name="upload">upload</button></i>
+        </form>
     </div>
     <!-- <div>
         <i class="fa fa-comment"></i>
