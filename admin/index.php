@@ -1,5 +1,5 @@
 <?php
-include("./db/db.php");
+include("../PHP/database.php");
 $sql = "SELECT * FROM post";
 $result = $conn->query($sql);
 $msg = "";
