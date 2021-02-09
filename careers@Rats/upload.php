@@ -1,7 +1,7 @@
 <?php
 session_start();
 if(!isset($_SESSION['userData'])){
-	header('location: index.php');
+	header('location: ../careers/index.php');
 }
 include_once '../PHP/database.php';
 if(isset($_POST['upload']))

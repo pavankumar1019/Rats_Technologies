@@ -1,7 +1,7 @@
 <?php 
 session_start();
 if(!isset($_SESSION['userData'])){
-	header('location: index.php');
+	header('location: ../careers/index.php');
 }
 ?>
 <!DOCTYPE html>
@@ -31,35 +31,35 @@ if(isset($_POST['upload']))
 ?>">
 <div class="col-12">
     <label for="inputEmail4" class="form-label">Email</label>
-    <input type="email" class="form-control" id="inputEmail4">
+    <input type="email" name="email" class="form-control" id="inputEmail4">
   </div>
   <div class="col-12">
     <label for="inputPassword4" class="form-label">Contact Number</label>
-    <input type="text" class="form-control" id="inputPassword4">
+    <input type="text" name="contact" class="form-control" id="inputPassword4">
   </div>
   <div class="col-12">
     <label for="inputAddress" class="form-label">Address</label>
-    <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+    <input type="text" name="address" class="form-control" id="inputAddress" placeholder="1234 Main St">
   </div>
   <div class="col-12">
     <label for="inputAddress" class="form-label">Skills</label>
-    <input type="text" class="form-control" id="inputAddress" placeholder="Eg. Java, PHP, Digital Marketing..">
+    <input type="text" name="skills" class="form-control" id="inputAddress" placeholder="Eg. Java, PHP, Digital Marketing..">
   </div>
   <div class="col-12">
     <label for="inputAddress" class="form-label">languages known</label>
-    <input type="text" class="form-control" id="inputAddress" placeholder="Eg. Hindi, Kannada,Tamil..">
+    <input type="text" name="languages" class="form-control" id="inputAddress" placeholder="Eg. Hindi, Kannada,Tamil..">
   </div>
   <div class="col-12">
     <label for="inputCity" class="form-label">City</label>
-    <input type="text" class="form-control" id="inputCity">
+    <input type="text" name="city" class="form-control" id="inputCity">
   </div>
   <div class="col-12">
   <label for="inputCity" class="form-label">State</label>
-    <input type="text" class="form-control" id="inputCity">
+    <input type="text" name="state" class="form-control" id="inputCity">
   </div>
   <div class="col-12">
   <label for="formFile" class="form-label">Upload Resume/CV</label>
-  <input class="form-control"  id="formFile" type="file"  name="file" accept="application/pdf" />
+  <input class="form-control" id="formFile" type="file"  name="file" accept="application/pdf" />
   </div>
   <br>
   <div class="col-12">
