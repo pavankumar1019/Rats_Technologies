@@ -30,7 +30,7 @@ $loginURL = filter_var($authUrl, FILTER_SANITIZE_URL);
 				<img src="../img/rats logo black.png" class="img" width="400px"> 
 			</div>
 			<p class="inner_p">
-				Let visitors easily authorize on your website with their Google account and save and utilize their data:)
+				Use google Account to Sign in
 			</p>
 			<a href="<?= htmlspecialchars( $loginURL ); ?>" style="-webkit-box-shadow: -1px 0px 17px 3px rgba(0,0,0,0.99); 
 box-shadow: -1px 0px 17px 3px rgba(0,0,0,0.99);"><img src="../img/google.png" class="fbbutton" alt="Login With Google"></a>
