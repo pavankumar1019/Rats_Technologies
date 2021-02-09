@@ -20,6 +20,7 @@ if(!isset($_SESSION['userData'])){
 <body>
 <div class="container my-4">
 <h5>Upload Your Resume/CV - Rats Technologies</h5>
+<br>
 <form action="upload.php" method="post" enctype="multipart/form-data">
 <input type="hidden" value="<?php 
 if(isset($_POST['upload']))
@@ -62,7 +63,7 @@ if(isset($_POST['upload']))
   </div>
   <br>
   <div class="col-12">
-  <button type="submit" class="btn btn-primary"  name="upload">upload</button>
+  <button type="submit" class="btn btn-primary"  name="upload">Submit</button>
   </div>
 </form>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
