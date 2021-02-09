@@ -29,7 +29,7 @@ if(isset($_POST['upload']))
   mysqli_query($conn,$sql);
   
   echo "File sucessfully upload";
-
+  echo '<script>alert("Thank You ! Rats Technologies Will Update you Notification")</script>';
   header('location: ../index.html');   
   
  }
