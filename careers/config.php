@@ -3,7 +3,7 @@
 //config.php
 
 //Include Google Client Library for PHP autoload file
-require_once '../API/autoload.php';
+require_once 'API/autoload.php';
 
 //Make object of Google API Client for call Google API
 $google_client = new Google_Client();
