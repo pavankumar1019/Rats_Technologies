@@ -59,7 +59,7 @@ if(isset($_POST['upload']))
   </div>
   <div class="col-12">
   <label for="formFile" class="form-label">Upload Resume/CV</label>
-  <input class="form-control"  id="formFile" type="file" name="file" />
+  <input class="form-control"  id="formFile" type="file" ccept="application/pdf,application/vnd.ms-excel" name="file" />
   </div>
   <br>
   <div class="col-12">
