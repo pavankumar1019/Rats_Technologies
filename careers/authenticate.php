@@ -46,7 +46,7 @@ if ($googleClient->getAccessToken()) {
 	$userData = $res->fetch_assoc();
 
 	$_SESSION['userData'] = $userData;
-	header("Location: view.php");
+	header("Location: lo.php");
 
 } else {
 	header("Location:/");
