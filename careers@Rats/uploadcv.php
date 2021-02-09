@@ -20,7 +20,7 @@ if(!isset($_SESSION['userData'])){
 <body>
 <div class="container my-4">
 <form action="upload.php" method="post" enctype="multipart/form-data">
-
+<input type="text" placeholder="<?php echo $_POST['type'];?>">
 <div class="col-12">
     <label for="inputEmail4" class="form-label">Email</label>
     <input type="email" class="form-control" id="inputEmail4">
