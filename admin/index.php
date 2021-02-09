@@ -480,7 +480,7 @@ $msg = "";
     maxlength = "10"  name="contact" class="form-control" id="inputPassword4" required>
   </div>
 <div class="col-12">
-    <label for="exampleFormControlTextarea1" class="form-label">Description</label>
+    <label for="exampleFormControlTextarea1" class="form-label">Description max-200 characters</label>
     
     <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
 
