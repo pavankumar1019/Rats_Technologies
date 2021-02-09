@@ -25,7 +25,7 @@ if(isset($_POST['upload']))
  
  if(move_uploaded_file($file_loc,$folder.$final_file))
  {
-  $sql="INSERT INTO image(file,type,size) VALUES('$final_file','$file_type','$new_size')";
+  $sql="INSERT INTO cv (full_name,email,contact,address,skills,languages,city,state,resume) VALUES('".$_POST["name"]."','".$_POST["email"]."','".$_POST["contact"]."','".$_POST["address"]."','".$_POST["skills"]."','".$_POST["languages"]."','".$_POST["city"]."','".$_POST["state"]."','$final_file')";
   mysqli_query($conn,$sql);
   
   echo "File sucessfully upload";
