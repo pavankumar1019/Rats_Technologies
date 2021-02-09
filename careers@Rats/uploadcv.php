@@ -18,7 +18,7 @@ if(!isset($_SESSION['userData'])){
 
 </head>
 <body>
-<div class="container container my-4">
+<div class="container my-4">
 <form action="upload.php" method="post" enctype="multipart/form-data">
 
 <div class="col-12">
