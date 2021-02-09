@@ -477,7 +477,7 @@ $msg = "";
     <label for="inputPassword4" class="form-label">Title</label>
     <input type="text" oninput="javascript: if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);"
     type = "number"
-    maxlength = "10"  name="contact" class="form-control" id="inputPassword4" required>
+    maxlength = "50"  name="contact" class="form-control" id="inputPassword4" required>
   </div>
 <div class="col-12">
     <label for="exampleFormControlTextarea1" class="form-label">Description max-200 characters</label>
