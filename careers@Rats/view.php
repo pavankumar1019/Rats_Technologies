@@ -214,11 +214,11 @@ if(!isset($_SESSION['userData'])){
 <div class="d-flex dfkj">
     <div class="lkt40">
         <img src="./Images/2.jpg" alt="">
-
+        <i class="fas fa-envelope-square">&nbsp careers@ratstechnologies.com</i>
     </div>
-    <div>
+    <!-- <div>
         Danial Ahmed
-    </div>
+    </div> -->
 </div>
 <hr>
 <!-- <div class="d-flex dfkj">
