@@ -8,7 +8,7 @@ if(!isset($_SESSION['userData'])){
 include("../PHP/database.php");
 $sql = "SELECT * FROM post";
 $result = $conn->query($sql);
-$msg = "";
+
 ?>
 
 <html lang="en">
@@ -108,33 +108,16 @@ $msg = "";
 </div>
 <div class="col-md-6">
     <h4>Off Campus Drive 2021 - Organized by Rats technologies </h4>
-    <!-- <div class="jfheuf">
-<div class="d-flex justify-content-around">
-    <div>
-        <h6><i class="fas fa-edit text-primary pr-1"></i>Share an update</h6>
-    </div>
-    <div>
-        <h6>
-            <i class="fas fa-arrow-up text-success pr-1"></i>   upload a photo
-        </h6>
-    </div>
-    <div>
-        <h6>
-            <i class="fas fa-book-open text-info pr-1"></i> write an article
-        </h6>
-    </div>
-</div>
-<hr>
-<textarea name="" id="" cols="3" rows="3" class="form-control" placeholder="Write Something...." ></textarea>
-</div> -->
-<?php
+
+    <?php
                             if ($result->num_rows > 0) {
                                 // output data of each row
                                 while($row = $result->fetch_assoc()) {
-                                    // echo "<br> id: ". $row["id"]. " - 
-                                ?>
-                                
-                                <div class="box1">
+                                    // echo "<br> id: ". $row["id"]. " - Name: ". $row["firstname"]. " " . $row["lastname"] . "<br>";
+                                   
+                                   
+                                  ?>
+<div class="box1">
 <div class="d-flex skfjkk">
     <div class="lkt40">
         <img src="../cv/<?php echo $row["img"];?>" alt="">
@@ -160,7 +143,7 @@ $msg = "";
     <div>
         <form action="uploadcv.php"  method="post" enctype="multipart/form-data">
         <!-- <i class="fa fa-heart"></i> -->
-        <input type="hidden" value="<?php echo $row["id"];?>" name="type">
+        <input type="hidden" value="<?php echo $row["title"];?>" name="type">
         <button type="submit" class="btn btn-outline-success" name="upload">  <i class="fa fa-upload" aria-hidden="true"> upload</i></button>
         </form>
     </div>
@@ -174,51 +157,15 @@ $msg = "";
     </div>
 </div>
 </div>
-                                
-                                <?php
-                                }      
-                                    ?>
+
+                                  <?php 
+                                }
+                            }
+                                   ?>
 
 
 
 
-
-<!-- <div class="box1">
-    <div class="d-flex skfjkk">
-        <div class="lkt40">
-            <img src="./Images/2.jpg" alt="">
-    
-        </div>
-        <div class="pl-2 pt-1">
-            <h6>Danial Ahmed</h6>
-        </div>
-     
-    </div>
-    <hr>
-    <p class="text-muted">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt tenetur cumque quam in aperiam excepturi amet est quo architecto blanditiis, odio necessitatibus accusantium facilis obcaecati? Sequi, cupiditate? Temporibus, tenetur reprehenderit?
-    </p>
-    <hr>
-    <div>
-    
-    </div>
-    <div>
-        
-    </div>
-    <div class="d-flex justify-content-around">
-        <div>
-            <i class="fa fa-upload" aria-hidden="true">Post Resume </i>
-        </div>
-        
-        <div>
-            <i class="fa fa-share"></i>
-            Share
-        </div>
-    </div>
-    </div> -->
-   
-        
-                           
 </div>
 <div class="col-md-4">
 <div class="left_box">
