@@ -73,7 +73,7 @@
     <label for="validationCustomUsername" class="form-label">Mobile Number</label>
     <div class="input-group has-validation">
       <span class="input-group-text" id="inputGroupPrepend">+91</span>
-      <input type="text" name="mobile" class="form-control" id="validationCustomUsername" onkeypress="javascript:return isNumber(event)" aria-describedby="inputGroupPrepend" required>
+      <input type="tel" size="10" maxlength="10" name="mobile" class="form-control" id="validationCustomUsername" onkeypress="javascript:return isNumber(event)" aria-describedby="inputGroupPrepend" required>
       <div class="invalid-feedback">
         Enter mobile number.
       </div>
