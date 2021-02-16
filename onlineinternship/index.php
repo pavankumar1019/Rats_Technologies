@@ -88,7 +88,7 @@
   </div>
   <div class="col-md-6">
     <label for="validationCustom03" class="form-label">Percentage Obtained in PUC/+2 (%)</label>
-    <input type="text" name="pucper" class="form-control" onkeypress="javascript:return isNumber(event)" id="validationCustom03" required>
+    <input type="text" name="pucper" class="form-control" onkeypress="javascript:return isNumber(event)" id="validationCustom03" >
     <div class="invalid-feedback">
       Please provide Percentage Obtained in PUC/+2 (%).
     </div>
