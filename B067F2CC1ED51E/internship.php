@@ -1,6 +1,6 @@
 <?php
 include("../PHP/database.php");
-$sql = "SELECT * FROM cv";
+$sql = "SELECT * FROM internship_data";
 $result = $conn->query($sql);
 $msg = "";
     ?>
@@ -478,13 +478,14 @@ $msg = "";
                                                 <th>id</th>
                                                 <th>Full Name</th>
                                                 <th>Email</th>
-                                                <th>Contact</th>
+                                                <th>Mobile</th>
+                                                <th>SSLC %</th>
+                                                <th>PUC %</th>
+                                                <th>Course UG</th>
+                                                <th>Course PG</th>
+                                                <th>UG %</th>
+                                                <th>PC %</th>
                                                 <th>Address</th>
-                                                <th>Skills</th>
-                                                <th>Languages</th>
-                                                <th>City</th>
-                                                <th>Job profile</th>
-                                                <th>Date	</th>
                                                 <th>resume	</th>
                                                 <th></th>
                                             </tr>
@@ -506,22 +507,25 @@ $msg = "";
                                                 </td>
                                                 <td><?php echo $row["id"];?> </td>
                                                 <td>
-                                                    <span class="block-email"><?php echo $row["full_name"];?></span>
+                                                    <span class="block-email"><?php echo $row["name"];?></span>
                                                 </td>
                                                 <td>
                                                     <span class="block-email"><?php echo $row["email"];?></span>
                                                 </td>
                                                 <td>
-                                                    <span class="block-email"><?php echo $row["contact"];?></span>
+                                                    <span class="block-email"><?php echo $row["mobile"];?></span>
                                                 </td>
                                                 <td>
-                                                    <span class="block-email"><?php echo $row["address"];?></span>
+                                                    <span class="block-email"><?php echo $row["sslc_per"];?></span>
                                                 </td>
-                                                <td class="desc"><?php echo $row["skills"];?></td>
-                                                <td class="desc"><?php echo $row["languages"];?></td>
-                                                <td class="desc"><?php echo $row["city"];?></td>
-                                                <td class="desc"><?php echo $row["job_profile"];?></td>
-                                                <td class="desc"><?php echo $row["date"];?></td>
+                                                <td>
+                                                    <span class="block-email"><?php echo $row["puc_per"];?></span>
+                                                </td>
+                                                <td class="desc"><?php echo $row["course_ug"];?></td>
+                                                <td class="desc"><?php echo $row["ug_per"];?></td>
+                                                <td class="desc"><?php echo $row["course_pg"];?></td>
+                                                <td class="desc"><?php echo $row["pg_per"];?></td>
+                                                <td class="desc"><?php echo $row["address"];?></td>
 
                                                 <td>
                                                     <div class="table-data-feature">
@@ -534,7 +538,7 @@ $msg = "";
                                                         
                                                 
                                                     
-                                                        <span class="iconify" data-icon="zmdi-eye" data-inline="false"><a href="../cv/<?php echo $row["resume"];?>">View</a></span>
+                                                        <span class="iconify" data-icon="zmdi-eye" data-inline="false"><a href="../cv/<?php echo $row["cv"];?>">View</a></span>
                                                      
                                                      
                                                         <!-- <button class="item" data-toggle="tooltip" data-placement="top" title="More">
@@ -601,19 +605,8 @@ $msg = "";
 
     <!-- Main JS-->
     <script src="js/main.js"></script>
-    <script>
-$('#textBox1').keypress(function(e) {
-    var tval = $('#textBox1').val(),
-        tlength = tval.length,
-        set = 150,
-        remain = parseInt(set - tlength);
-    $('#p').text(remain);
-    if (remain <= 0 && e.which !== 0 && e.charCode !== 0) {
-        $('#textBox1').val((tval).substring(0, tlength - 1));
-        return false;
-    }
-})
-</script>
+  
+
 </body>
 
 </html>
