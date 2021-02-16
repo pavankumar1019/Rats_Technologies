@@ -24,6 +24,7 @@
             <div>   <h6> phone:- 9900651851</h6></div>          
             </div>
 </div>
+<br>
 <div class="container-fluid">
 
 <form class="row g-3 needs-validation" novalidate>
