@@ -9,7 +9,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <style>
+.buttonload {
+  background-color: #4CAF50; /* Green background */
+  border: none; /* Remove borders */
+  color: white; /* White text */
+  padding: 12px 24px; /* Some padding */
+  font-size: 16px; /* Set a font-size */
+}
 
+/* Add a right margin to each icon */
+.fa {
+  margin-left: -12px;
+  margin-right: 8px;
+}
+</style>
 </head>
 <body>
 <div class="container-fluid">
@@ -133,7 +148,7 @@
     </div>
   </div>
   <div class="col-12">
-    <button class="btn btn-primary" name="upload" type="submit">Submit form</button>
+    <button class="btn btn-primary" name="upload" type="submit"><i style="display:none;" class="fa fa-spinner fa-spin"></i>Submit form</button>
   </div>
 </form>
 </div>
@@ -160,6 +175,11 @@
       }, false)
     })
 })()
+</script>
+<script>
+$( "form" ).submit(function() {
+  $('.fa').show();
+});
 </script>
 </body>
 </html>
