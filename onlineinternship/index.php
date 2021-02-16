@@ -130,7 +130,7 @@
   </div>
  
   <div class="col-md-6">
-    <label for="validationCustom05" class="form-label">Upload CV/Resume</label>
+    <label for="validationCustom05" class="form-label">Upload CV/Resume (.PDF)</label>
     <input class="form-control form-control-lg" id="validationCustom05" type="file"  name="file" accept="application/pdf" required/>
     <div class="invalid-feedback">
       Please upload CV/Resume.
