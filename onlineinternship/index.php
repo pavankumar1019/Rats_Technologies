@@ -77,21 +77,19 @@
       Please provide Percentage Obtained in PG (%).
     </div>
   </div>
-  <div class="col-md-3">
-    <label for="validationCustom04" class="form-label">State</label>
-    <select class="form-select" id="validationCustom04" required>
-      <option selected disabled value="">Choose...</option>
-      <option>...</option>
-    </select>
+  <div class="col-md-8>
+    <label for="validationCustom03" class="form-label">Address</label>
+    <input type="text" class="form-control" id="validationCustom03" required>
     <div class="invalid-feedback">
-      Please select a valid state.
+      Please provide Address.
     </div>
   </div>
-  <div class="col-md-3">
-    <label for="validationCustom05" class="form-label">Zip</label>
-    <input type="text" class="form-control" id="validationCustom05" required>
+ 
+  <div class="col-md-4">
+    <label for="validationCustom05" class="form-label">Upload CV/Resume</label>
+    <input class="form-control form-control-lg" id="validationCustom05" type="file" required/>
     <div class="invalid-feedback">
-      Please provide a valid zip.
+      Please upload CV/Resume.
     </div>
   </div>
   <div class="col-12">
@@ -109,7 +107,7 @@
     <button class="btn btn-primary" type="submit">Submit form</button>
   </div>
 </form>
-</div>s
+</div>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
 
 <script>
