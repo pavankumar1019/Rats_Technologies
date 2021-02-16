@@ -1,11 +1,9 @@
 <?php
 include("../PHP/database.php");
-$sql = "SELECT * FROM post";
+$sql = "SELECT * FROM cv";
 $result = $conn->query($sql);
 $msg = "";
     ?>
-
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -18,7 +16,7 @@ $msg = "";
     <meta name="keywords" content="au theme template">
 
     <!-- Title Page-->
-    <title>Rats</title>
+    <title>CV Reports</title>
 
     <!-- Fontfaces CSS-->
     <link href="css/font-face.css" rel="stylesheet" media="all">
@@ -40,7 +38,8 @@ $msg = "";
 
     <!-- Main CSS-->
     <link href="css/theme.css" rel="stylesheet" media="all">
-
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  
 </head>
 
 <body class="animsition">
@@ -51,7 +50,7 @@ $msg = "";
                 <div class="container-fluid">
                     <div class="header-mobile-inner">
                         <a class="logo" href="index.html">
-                            <img style="width:20%;" src="../img/rats logo black.png" alt="CoolAdmin" />
+                        <img style="width:20%;" src="../img/rats logo black.png" alt="CoolAdmin" />
                         </a>
                         <button class="hamburger hamburger--slider" type="button">
                             <span class="hamburger-box">
@@ -94,14 +93,6 @@ $msg = "";
                             <a href="internship.php">
                                 <i class="fas fa-map-marker-alt"></i>Internship Reports</a>
                         </li>
-                        <!-- <li>
-                            <a href="form.php">
-                                <i class="far fa-check-square"></i>Staff</a>
-                        </li>
-                        <li>
-                            <a href="calendar.php">
-                                <i class="fas fa-calendar-alt"></i>Gallery</a>
-                        </li> -->
                         <!-- <li>
                             <a href="map.html">
                                 <i class="fas fa-map-marker-alt"></i>Maps</a>
@@ -170,7 +161,7 @@ $msg = "";
         <aside class="menu-sidebar d-none d-lg-block">
             <div class="logo">
                 <a href="#">
-                    <img style="width:50%;" src="../img/rats logo black.png" alt="Cool Admin" />
+                <img style="width:50%;" src="../img/rats logo black.png" alt="Cool Admin" />
                 </a>
             </div>
             <div class="menu-sidebar__content js-scrollbar1">
@@ -194,7 +185,7 @@ $msg = "";
                                 </li>
                             </ul> -->
                         </li>
-                        <li class="active">
+                        <li>
                             <a href="index.php">
                                 <i class="fas fa-chart-bar"></i>Post Jobs</a>
                         </li>
@@ -202,20 +193,12 @@ $msg = "";
                             <a href="table.php">
                                 <i class="fas fa-table"></i>CV Reports</a>
                         </li>
-                        <li>
+                        <li class="active">
                             <a href="internship.php">
                                 <i class="fas fa-map-marker-alt"></i>Internship Reports</a>
                         </li>
                         <!-- <li>
-                            <a href="form.php">
-                                <i class="far fa-check-square"></i></a>
-                        </li> -->
-                        <!-- <li>
-                            <a href="calendar.php">
-                                <i class="fas fa-calendar-alt"></i>Gallery</a>
-                        </li> -->
-                        <!-- <li>
-                            <a href="map.html">
+                            <a href="map.php">
                                 <i class="fas fa-map-marker-alt"></i>Maps</a>
                         </li>
                         <li class="has-sub">
@@ -288,7 +271,6 @@ $msg = "";
                             <form class="form-header" action="" method="POST">
                                 <!-- <input class="au-input au-input--xl" type="text" name="search" placeholder="Search for datas &amp; reports..." />
                                 <button class="au-btn--submit" type="submit">
-                                   
                                     <i class="zmdi zmdi-search"></i>
                                 </button> -->
                                 <h1>Rats Technologies</h1>
@@ -304,7 +286,7 @@ $msg = "";
                                             </div>
                                             <div class="mess__item">
                                                 <div class="image img-cir img-40">
-                                                    <img src="images/icon/avatar-06.jpg" alt="" />
+                                                    <img src="images/icon/avatar-06.jpg" alt="Michelle Moreno" />
                                                 </div>
                                                 <div class="content">
                                                     <h6>Michelle Moreno</h6>
@@ -409,7 +391,7 @@ $msg = "";
                                 <div class="account-wrap">
                                     <div class="account-item clearfix js-item-menu">
                                         <div class="image">
-                                            <img src="../img/rats logo black.png" alt="John Doe" />
+                                            <img src="../img/rats logo black.png" alt="" />
                                         </div>
                                         <div class="content">
                                             <a class="js-acc-btn" href="#">Admin</a>
@@ -423,7 +405,7 @@ $msg = "";
                                                 </div>
                                                 <div class="content">
                                                     <h5 class="name">
-                                                        <a href="#"> Admin</a>
+                                                        <a href="#">Admin </a>
                                                     </h5>
                                                     <span class="email">Admin@example.com</span>
                                                 </div>
@@ -457,67 +439,34 @@ $msg = "";
             <!-- END HEADER DESKTOP-->
 
             <!-- MAIN CONTENT-->
-            <div class="main-content">
+            <div class="main-content"  style="overflow-x:auto;">
                 <div class="section__content section__content--p30">
                     <div class="container-fluid">
+              
+                            <!--  -->
                         <div class="row">
-                            <!-- <div class="col-lg-6">
-                                <div class="au-card m-b-30">
-                                    <div class="au-card-inner">
-                                        <h3 class="title-2 m-b-40">Upload Slider 1</h3>
-                                        <canvas id="sales-chart"></canvas>
-                                    </div>
-                                </div>
-                            </div> -->
-                           
-                           
-                                       <div class="col-lg-12">
-                                <div class="au-card m-b-30">
-                                    <div class="au-card-inner">
-                                        <h3 class="title-2 m-b-40">Post Jobs Here!</h3>
-                                        <!-- <canvas id="sales-chart"></canvas> -->
-                                    
-                                        <img src="../img/rats logo black.png" width="50%" alt="">
-                                  
-                                    <form action="upload.php" method="post" enctype="multipart/form-data">
-
-<div class="col-12">
-    <label for="inputPassword4" class="form-label">Title</label>
-    <input type="text" oninput="javascript: if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);"
-    type = "number"
-    maxlength = "100"  name="title" class="form-control" id="inputPassword4" required>
-  </div>
-<div class="col-12">
-    <label for="exampleFormControlTextarea1" class="form-label">Description max-200 characters</label>
-    
-    <textarea class="form-control" name="des" id="exampleFormControlTextarea1" rows="3"></textarea>
-
-  </div>
-  
-
-  <div class="col-12">
-  <label for="formFile" class="form-label">Upload logo</label>
-  <input class="form-control" id="formFile" type="file"  name="file" accept="image/*" required/>
-  </div>
-  <br>
-  <div class="col-12">
-  <button type="submit" class="btn btn-primary"  name="upload">Submit</button>
-  </div>
-  <br>
-</form>
-                                    </div>
-                                </div>
+                            <div class="col-lg-6">
+                                <!-- USER DATA-->
+                            
+                                <!-- END USER DATA-->
                             </div>
-                                
-                      
-                             <br>
-                             
-                             <div class="col-lg-12">
-                                <div class="au-card m-b-30">
-                                    <div class="au-card-inner">
-                                        <h3 class="title-2 m-b-40">Post Jobs Here!</h3>
-                                        <!-- <canvas id="sales-chart"></canvas> -->
-                                        <table class="table table-data2">
+                            <div class="col-lg-6">
+                               
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <!-- DATA TABLE -->
+                                <h3 class="title-5 m-b-35">Reports</h3>
+                                <div class="table-data__tool">
+                                    <div class="table-data__tool-left">
+                                    
+                                       
+                                   
+                                    </div>
+                                  
+                                </div>
+                                <div  style="overflow-x:auto;">
+                                    <table class="table table-data2">
                                         <thead>
                                             <tr>
                                                 <th>
@@ -527,10 +476,16 @@ $msg = "";
                                                     </label>
                                                 </th>
                                                 <th>id</th>
-                                               
-                                                <th>title</th>
-                                                <th>description</th>
-                                                <th>img</th>
+                                                <th>Full Name</th>
+                                                <th>Email</th>
+                                                <th>Contact</th>
+                                                <th>Address</th>
+                                                <th>Skills</th>
+                                                <th>Languages</th>
+                                                <th>City</th>
+                                                <th>Job profile</th>
+                                                <th>Date	</th>
+                                                <th>resume	</th>
                                                 <th></th>
                                             </tr>
                                         </thead>
@@ -551,13 +506,23 @@ $msg = "";
                                                 </td>
                                                 <td><?php echo $row["id"];?> </td>
                                                 <td>
-                                                    <span class="block-email"><?php echo $row["title"];?></span>
+                                                    <span class="block-email"><?php echo $row["full_name"];?></span>
                                                 </td>
-                                              
-                                                <td class="desc"><?php echo $row["description"];?></td>
-                                                <td><img src="../cv/<?php echo $row["img"];?>" alt="" style="width:80%;"></td>
-                                              
-                                              
+                                                <td>
+                                                    <span class="block-email"><?php echo $row["email"];?></span>
+                                                </td>
+                                                <td>
+                                                    <span class="block-email"><?php echo $row["contact"];?></span>
+                                                </td>
+                                                <td>
+                                                    <span class="block-email"><?php echo $row["address"];?></span>
+                                                </td>
+                                                <td class="desc"><?php echo $row["skills"];?></td>
+                                                <td class="desc"><?php echo $row["languages"];?></td>
+                                                <td class="desc"><?php echo $row["city"];?></td>
+                                                <td class="desc"><?php echo $row["job_profile"];?></td>
+                                                <td class="desc"><?php echo $row["date"];?></td>
+
                                                 <td>
                                                     <div class="table-data-feature">
                                                         <!-- <button class="item" data-toggle="tooltip" data-placement="top" title="Send">
@@ -566,13 +531,12 @@ $msg = "";
                                                         <button class="item" data-toggle="tooltip" data-placement="top" title="Edit">
                                                             <i class="zmdi zmdi-edit"></i>
                                                         </button> -->
-                                                        <form action="delete_post.php" method="post" enctype="multipart/form-data">
-                                                        <input type="hidden" name="id" value="<?php echo $row["id"];?>">
+                                                        
                                                 
-                                                        <button class="item" data-toggle="tooltip" data-placement="top" title="Delete">
-                                                            <i class="zmdi zmdi-delete"></i>
-                                                        </button>
-                                                        </form>
+                                                    
+                                                        <span class="iconify" data-icon="zmdi-eye" data-inline="false"><a href="../cv/<?php echo $row["resume"];?>">View</a></span>
+                                                     
+                                                     
                                                         <!-- <button class="item" data-toggle="tooltip" data-placement="top" title="More">
                                                             <i class="zmdi zmdi-more"></i>
                                                         </button> -->
@@ -592,89 +556,25 @@ $msg = "";
                                            
                                         </tbody>
                                     </table>
-                                  
-                                
-                                    </div>
                                 </div>
+                                <!-- END DATA TABLE -->
                             </div>
-                            <!-- <div class="col-lg-6">
-                                <div class="au-card m-b-30">
-                                    <div class="au-card-inner">
-                                        <h3 class="title-2 m-b-40">Upload Slider 2</h3>
-                                        <canvas id="team-chart"></canvas>
-                                    </div>
-                                </div>
-                            </div> -->
-                            <!-- <div class="col-lg-6">
-                                <div class="au-card m-b-30">
-                                    <div class="au-card-inner">
-                                        <h3 class="title-2 m-b-40">Upload Slider 3</h3>
-                                        <canvas id="barChart"></canvas>
-                                    </div>
-                                </div>
-                            </div> -->
-                            <!-- <div class="col-lg-6">
-                                <div class="au-card m-b-30">
-                                    <div class="au-card-inner">
-                                        <h3 class="title-2 m-b-40">Rader chart</h3>
-                                        <canvas id="radarChart"></canvas>
-                                    </div>
-                                </div>
+                        </div>
+                        
+                                <!-- END DATA TABLE-->
                             </div>
-                            <div class="col-lg-6">
-                                <div class="au-card m-b-30">
-                                    <div class="au-card-inner">
-                                        <h3 class="title-2 m-b-40">Line Chart</h3>
-                                        <canvas id="lineChart"></canvas>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-6">
-                                <div class="au-card m-b-30">
-                                    <div class="au-card-inner">
-                                        <h3 class="title-2 m-b-40">Doughut Chart</h3>
-                                        <canvas id="doughutChart"></canvas>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-6">
-                                <div class="au-card m-b-30">
-                                    <div class="au-card-inner">
-                                        <h3 class="title-2 m-b-40">Pie Chart</h3>
-                                        <canvas id="pieChart"></canvas>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-6">
-                                <div class="au-card m-b-30">
-                                    <div class="au-card-inner">
-                                        <h3 class="title-2 m-b-40">Polar Chart</h3>
-                                        <canvas id="polarChart"></canvas>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-6">
-                                <div class="au-card m-b-30">
-                                    <div class="au-card-inner">
-                                        <h3 class="title-2 m-b-40">Single Bar Chart</h3>
-                                        <canvas id="singelBarChart"></canvas>
-                                    </div>
-                                </div>
-                            </div>
-                        </div> -->
+                        </div>
                         <div class="row">
                             <div class="col-md-12">
                                 <div class="copyright">
-                                    <p>Copyright © RATS TECHNOLOGIES <a href="http://ratstechnologies.com/">PAVANKUMAR</a>.</p>
+                                   
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-            <!-- END MAIN CONTENT-->
         </div>
-        <!-- END PAGE CONTAINER-->
 
     </div>
 
@@ -701,7 +601,19 @@ $msg = "";
 
     <!-- Main JS-->
     <script src="js/main.js"></script>
-
+    <script>
+$('#textBox1').keypress(function(e) {
+    var tval = $('#textBox1').val(),
+        tlength = tval.length,
+        set = 150,
+        remain = parseInt(set - tlength);
+    $('#p').text(remain);
+    if (remain <= 0 && e.which !== 0 && e.charCode !== 0) {
+        $('#textBox1').val((tval).substring(0, tlength - 1));
+        return false;
+    }
+})
+</script>
 </body>
 
 </html>

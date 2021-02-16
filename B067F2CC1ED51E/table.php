@@ -89,7 +89,10 @@ $msg = "";
                             <a href="table.php">
                                 <i class="fas fa-table"></i>CV Reports</a>
                         </li>
-                      
+                        <li>
+                            <a href="internship.php">
+                                <i class="fas fa-map-marker-alt"></i>Internship Reports</a>
+                        </li>
                         <!-- <li>
                             <a href="map.html">
                                 <i class="fas fa-map-marker-alt"></i>Maps</a>
@@ -190,7 +193,10 @@ $msg = "";
                             <a href="table.php">
                                 <i class="fas fa-table"></i>CV Reports</a>
                         </li>
-                      
+                        <li >
+                            <a href="internship.php">
+                                <i class="fas fa-map-marker-alt"></i>Internship Reports</a>
+                        </li>
                         <!-- <li>
                             <a href="map.php">
                                 <i class="fas fa-map-marker-alt"></i>Maps</a>
