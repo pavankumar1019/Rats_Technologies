@@ -24,7 +24,7 @@
             <div>   <h6> phone:- 9900651851</h6></div>          
             </div>
             <div class="d-flex justify-content-center">
-            <div>   <h2 style="color:red;"> phone:- 9900651851</h2></div>          
+            <div><h2 style="color:red;">"Virtual Online Internship 2021"</h2></div>          
             </div>
 </div>
 <br>
