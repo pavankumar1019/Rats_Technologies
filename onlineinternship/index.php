@@ -15,13 +15,16 @@
             </div>
 
             <div class="d-flex justify-content-center">
-            <div>    <h4>Bangarpet-563114,Kolar,Karnataka</h4></div>          
+            <div>    <h6>Bangarpet-563114,Kolar,Karnataka</h6></div>          
             </div>
             <div class="d-flex justify-content-center">
             <div>    <h6>visit:- ratstechnologies.com , <strong> phone:- 9900651851</strong></h6></div>          
             </div>
             <div class="d-flex justify-content-center">
             <div><h2 style="color:red;">"Virtual Online Internship 2021"</h2></div>          
+            </div>
+            <div class="d-flex justify-content-center">
+            <div><hp style="color:red;">"Online Registration"</p></div>          
             </div>
 </div>
 <br>
