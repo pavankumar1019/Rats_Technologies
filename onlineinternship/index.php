@@ -39,7 +39,7 @@
             <div>    <h6>visit:- ratstechnologies.com , <strong> Phone:- 9900651851</strong></h6></div>          
             </div>
             <div class="d-flex justify-content-center">
-            <div><h2 style="color:red;">"Virtual Online Internship 2021"</h2></div>          
+            <div><h2 style="color:red;">"VIRTUAL ONLINE INTERNSHIP 2021"</h2></div>          
             </div>
             <div class="d-flex justify-content-center">
             <div><hp style="color:red;">"Online Registration"</p></div>          
