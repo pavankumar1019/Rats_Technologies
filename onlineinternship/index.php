@@ -96,7 +96,7 @@
     <div class="form-check">
       <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
       <label class="form-check-label" for="invalidCheck">
-        Agree to terms and conditions
+        Agree to upload my Resume/CV to this Portal
       </label>
       <div class="invalid-feedback">
         You must agree before submitting.
