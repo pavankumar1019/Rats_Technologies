@@ -73,7 +73,7 @@
     <label for="validationCustomUsername" class="form-label">Mobile Number</label>
     <div class="input-group has-validation">
       <span class="input-group-text" id="inputGroupPrepend">+91</span>
-      <input type="text" name="mobile" class="form-control" id="validationCustomUsername" aria-describedby="inputGroupPrepend" required>
+      <input type="text" name="mobile" class="form-control" id="validationCustomUsername" onkeypress="javascript:return isNumber(event)" aria-describedby="inputGroupPrepend" required>
       <div class="invalid-feedback">
         Enter mobile number.
       </div>
@@ -81,14 +81,14 @@
   </div>
   <div class="col-md-6">
     <label for="validationCustom03" class="form-label">Percentage Obtained in SSLC (%)</label>
-    <input type="text" name="sslcper" class="form-control" id="validationCustom03" required>
+    <input type="text" name="sslcper" class="form-control" onkeypress="javascript:return isNumber(event)" id="validationCustom03" required>
     <div class="invalid-feedback">
       Please provide Percentage Obtained in SSLC (%).
     </div>
   </div>
   <div class="col-md-6">
     <label for="validationCustom03" class="form-label">Percentage Obtained in PUC/+2 (%)</label>
-    <input type="text" name="pucper" class="form-control" id="validationCustom03" required>
+    <input type="text" name="pucper" class="form-control" onkeypress="javascript:return isNumber(event)" id="validationCustom03" required>
     <div class="invalid-feedback">
       Please provide Percentage Obtained in PUC/+2 (%).
     </div>
@@ -102,21 +102,21 @@
   </div>
   <div class="col-md-3">
     <label for="validationCustom03" class="form-label">Percentage Obtained in UG (%)</label>
-    <input type="text" name="ugper" class="form-control" id="validationCustom03" required>
+    <input type="text" name="ugper" class="form-control" onkeypress="javascript:return isNumber(event)" id="validationCustom03" required>
     <div class="invalid-feedback">
       Please provide Percentage Obtained in UG (%).
     </div>
   </div>
   <div class="col-md-3">
     <label for="validationCustom03" class="form-label">Course Obtained in PG</label>
-    <input type="text" name="coursepg" class="form-control" id="validationCustom03" required>
+    <input type="text" name="coursepg" class="form-control"  id="validationCustom03" required>
     <div class="invalid-feedback">
       Please provide Course Obtained in PG.
     </div>
   </div>
   <div class="col-md-3">
     <label for="validationCustom03" class="form-label">Percentage Obtained in PG (%)</label>
-    <input type="text" name="pgper" class="form-control" id="validationCustom03" required>
+    <input type="text" name="pgper" class="form-control" onkeypress="javascript:return isNumber(event)" id="validationCustom03" required>
     <div class="invalid-feedback">
       Please provide Percentage Obtained in PG (%).
     </div>
@@ -180,6 +180,17 @@
 $( "form" ).submit(function() {
   return this.some_flag_variable;
 });
+</script>
+
+<script>
+    // WRITE THE VALIDATION SCRIPT.
+    function isNumber(evt) {
+        var iKeyCode = (evt.which) ? evt.which : evt.keyCode
+        if (iKeyCode != 46 && iKeyCode > 31 && (iKeyCode < 48 || iKeyCode > 57))
+            return false;
+
+        return true;
+    }    
 </script>
 </body>
 </html>
