@@ -12,34 +12,69 @@
 <div class="container-fluid">
 <form class="row g-3 needs-validation" novalidate>
   <div class="col-md-4">
-    <label for="validationCustom01" class="form-label">First name</label>
+    <label for="validationCustom01" class="form-label">Full name</label>
     <input type="text" class="form-control" id="validationCustom01" value="Mark" required>
     <div class="valid-feedback">
       Looks good!
     </div>
   </div>
   <div class="col-md-4">
-    <label for="validationCustom02" class="form-label">Last name</label>
-    <input type="text" class="form-control" id="validationCustom02" value="Otto" required>
+    <label for="validationCustom02" class="form-label">Email</label>
+    <input type="email" class="form-control" id="validationCustom02" value="Otto" required>
     <div class="valid-feedback">
       Looks good!
     </div>
   </div>
   <div class="col-md-4">
-    <label for="validationCustomUsername" class="form-label">Username</label>
+    <label for="validationCustomUsername" class="form-label">Mobile Number</label>
     <div class="input-group has-validation">
-      <span class="input-group-text" id="inputGroupPrepend">@</span>
+      <span class="input-group-text" id="inputGroupPrepend">+91</span>
       <input type="text" class="form-control" id="validationCustomUsername" aria-describedby="inputGroupPrepend" required>
       <div class="invalid-feedback">
-        Please choose a username.
+        Enter mobile number.
       </div>
     </div>
   </div>
-  <div class="col-md-6">
-    <label for="validationCustom03" class="form-label">City</label>
+  <div class="col-md-3">
+    <label for="validationCustom03" class="form-label">Percentage Obtained in SSLC (%)</label>
     <input type="text" class="form-control" id="validationCustom03" required>
     <div class="invalid-feedback">
-      Please provide a valid city.
+      Please provide Percentage Obtained in SSLC (%).
+    </div>
+  </div>
+  <div class="col-md-3">
+    <label for="validationCustom03" class="form-label">Percentage Obtained in PUC/+2 (%)</label>
+    <input type="text" class="form-control" id="validationCustom03" required>
+    <div class="invalid-feedback">
+      Please provide Percentage Obtained in PUC/+2 (%).
+    </div>
+  </div>
+  <div class="col-md-3">
+    <label for="validationCustom03" class="form-label">Course Obtained in UG</label>
+    <input type="text" class="form-control" id="validationCustom03" required>
+    <div class="invalid-feedback">
+      Please provide Course Obtained in UG.
+    </div>
+  </div>
+  <div class="col-md-3">
+    <label for="validationCustom03" class="form-label">Percentage Obtained in UG (%)</label>
+    <input type="text" class="form-control" id="validationCustom03" required>
+    <div class="invalid-feedback">
+      Please provide Percentage Obtained in UG (%).
+    </div>
+  </div>
+  <div class="col-md-3">
+    <label for="validationCustom03" class="form-label">Course Obtained in PG</label>
+    <input type="text" class="form-control" id="validationCustom03" required>
+    <div class="invalid-feedback">
+      Please provide Course Obtained in PG.
+    </div>
+  </div>
+  <div class="col-md-3">
+    <label for="validationCustom03" class="form-label">Percentage Obtained in PG (%)</label>
+    <input type="text" class="form-control" id="validationCustom03" required>
+    <div class="invalid-feedback">
+      Please provide Percentage Obtained in PG (%).
     </div>
   </div>
   <div class="col-md-3">
