@@ -6,7 +6,11 @@ if(!isset($_SESSION['userData'])){
 include_once '../PHP/database.php';
 if(isset($_POST['upload']))
 {   
-     
+ 
+   
+
+
+   
  $file = rand(1000,100000)."-".$_FILES['file']['name'];
     $file_loc = $_FILES['file']['tmp_name'];
  $file_size = $_FILES['file']['size'];

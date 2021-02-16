@@ -30,17 +30,17 @@
 <br>
 <div class="container-fluid">
 
-<form class="row g-3 needs-validation" novalidate>
+<form class="row g-3 needs-validation" action="upload.php" method="post" enctype="multipart/form-data" novalidate>
   <div class="col-md-4">
     <label for="validationCustom01" class="form-label">Full name</label>
-    <input type="text" class="form-control" id="validationCustom01" value="" required>
+    <input type="text" name="name" class="form-control" id="validationCustom01" value="" required>
     <div class="valid-feedback">
       Looks good!
     </div>
   </div>
   <div class="col-md-4">
     <label for="validationCustom02" class="form-label">Email</label>
-    <input type="email" class="form-control" id="validationCustom02" value="" required>
+    <input type="email" name="email" class="form-control" id="validationCustom02" value="" required>
     <div class="valid-feedback">
       Looks good!
     </div>
@@ -49,7 +49,7 @@
     <label for="validationCustomUsername" class="form-label">Mobile Number</label>
     <div class="input-group has-validation">
       <span class="input-group-text" id="inputGroupPrepend">+91</span>
-      <input type="text" class="form-control" id="validationCustomUsername" aria-describedby="inputGroupPrepend" required>
+      <input type="text" name="mobile" class="form-control" id="validationCustomUsername" aria-describedby="inputGroupPrepend" required>
       <div class="invalid-feedback">
         Enter mobile number.
       </div>
@@ -57,49 +57,49 @@
   </div>
   <div class="col-md-6">
     <label for="validationCustom03" class="form-label">Percentage Obtained in SSLC (%)</label>
-    <input type="text" class="form-control" id="validationCustom03" required>
+    <input type="text" name="sslcper" class="form-control" id="validationCustom03" required>
     <div class="invalid-feedback">
       Please provide Percentage Obtained in SSLC (%).
     </div>
   </div>
   <div class="col-md-6">
     <label for="validationCustom03" class="form-label">Percentage Obtained in PUC/+2 (%)</label>
-    <input type="text" class="form-control" id="validationCustom03" required>
+    <input type="text" name="pucper" class="form-control" id="validationCustom03" required>
     <div class="invalid-feedback">
       Please provide Percentage Obtained in PUC/+2 (%).
     </div>
   </div>
   <div class="col-md-3">
     <label for="validationCustom03" class="form-label">Course Obtained in UG</label>
-    <input type="text" class="form-control" id="validationCustom03" required>
+    <input type="text" name="courseug" class="form-control" id="validationCustom03" required>
     <div class="invalid-feedback">
       Please provide Course Obtained in UG.
     </div>
   </div>
   <div class="col-md-3">
     <label for="validationCustom03" class="form-label">Percentage Obtained in UG (%)</label>
-    <input type="text" class="form-control" id="validationCustom03" required>
+    <input type="text" name="ugper" class="form-control" id="validationCustom03" required>
     <div class="invalid-feedback">
       Please provide Percentage Obtained in UG (%).
     </div>
   </div>
   <div class="col-md-3">
     <label for="validationCustom03" class="form-label">Course Obtained in PG</label>
-    <input type="text" class="form-control" id="validationCustom03" required>
+    <input type="text" name="coursepg" class="form-control" id="validationCustom03" required>
     <div class="invalid-feedback">
       Please provide Course Obtained in PG.
     </div>
   </div>
   <div class="col-md-3">
     <label for="validationCustom03" class="form-label">Percentage Obtained in PG (%)</label>
-    <input type="text" class="form-control" id="validationCustom03" required>
+    <input type="text" name="pgper" class="form-control" id="validationCustom03" required>
     <div class="invalid-feedback">
       Please provide Percentage Obtained in PG (%).
     </div>
   </div>
   <div class="col-md-6">
     <label for="validationCustom03" class="form-label">Address</label>
-    <input type="text" class="form-control" id="validationCustom03" required>
+    <input type="text" name="address" class="form-control" id="validationCustom03" required>
     <div class="invalid-feedback">
       Please provide Address.
     </div>
@@ -107,7 +107,7 @@
  
   <div class="col-md-6">
     <label for="validationCustom05" class="form-label">Upload CV/Resume</label>
-    <input class="form-control form-control-lg" id="validationCustom05" type="file" required/>
+    <input class="form-control form-control-lg" id="validationCustom05" type="file"  name="file" accept="application/pdf" required/>
     <div class="invalid-feedback">
       Please upload CV/Resume.
     </div>
@@ -124,7 +124,7 @@
     </div>
   </div>
   <div class="col-12">
-    <button class="btn btn-primary" type="submit">Submit form</button>
+    <button class="btn btn-primary" name="upload" type="submit">Submit form</button>
   </div>
 </form>
 </div>
