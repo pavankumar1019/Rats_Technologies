@@ -10,7 +10,9 @@
 </head>
 <body>
 <div class="container-fluid">
-<div class="d-flex justify-content-center p-2">Rats Technologies <br>Bangarpet <br>ratstechnologies.com <br>phone:- 9900651851</div>
+<div class="d-flex justify-content-center p-2">
+<h1>Rats Technologies</h1>
+ <br><h5>>Bangarpet</h5> <br>ratstechnologies.com <br>phone:- 9900651851</div>
 </div>
 <div class="container-fluid">
 
