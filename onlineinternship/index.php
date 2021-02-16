@@ -11,7 +11,9 @@
 <body>
 <div class="container-fluid">
             <div class="d-flex justify-content-center">
-                        <h1>Rats Technologies</h1>
+            <div><h1>Rats Technologies</h1></div>
+            <div><h1>Rats Technologies</h1></div>
+                        
                         <br>
                         <h4>Bangarpet</h4>
                         <h6>ratstechnologies.com</h6>
