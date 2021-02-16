@@ -12,7 +12,11 @@
 <div class="container-fluid">
 <div class="d-flex justify-content-center p-2">
 <h1>Rats Technologies</h1>
- <br><h5>>Bangarpet</h5> <br>ratstechnologies.com <br>phone:- 9900651851</div>
+ <br>
+ <h4>Bangarpet</h4>
+ <h6>ratstechnologies.com</h6>
+ <h6> phone:- 9900651851</h6>
+</div>
 </div>
 <div class="container-fluid">
 
