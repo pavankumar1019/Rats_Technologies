@@ -35,14 +35,14 @@
       </div>
     </div>
   </div>
-  <div class="col-md-3">
+  <div class="col-md-6">
     <label for="validationCustom03" class="form-label">Percentage Obtained in SSLC (%)</label>
     <input type="text" class="form-control" id="validationCustom03" required>
     <div class="invalid-feedback">
       Please provide Percentage Obtained in SSLC (%).
     </div>
   </div>
-  <div class="col-md-3">
+  <div class="col-md-6">
     <label for="validationCustom03" class="form-label">Percentage Obtained in PUC/+2 (%)</label>
     <input type="text" class="form-control" id="validationCustom03" required>
     <div class="invalid-feedback">
