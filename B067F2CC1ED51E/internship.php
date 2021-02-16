@@ -538,7 +538,7 @@ $msg = "";
                                                         
                                                 
                                                     
-                                                        <span class="iconify" data-icon="zmdi-eye" data-inline="false"><a href="../cv/<?php echo $row["cv"];?>">View</a></span>
+                                                        <span class="iconify" data-icon="zmdi-eye" data-inline="false"><i class="fa fa-eye" aria-hidden="true"></i><a href="../cv/<?php echo $row["cv"];?>">View</a></span>
                                                      
                                                      
                                                         <!-- <button class="item" data-toggle="tooltip" data-placement="top" title="More">
