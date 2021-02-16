@@ -148,7 +148,7 @@
     </div>
   </div>
   <div class="col-12">
-    <button class="btn btn-primary" name="upload" type="submit"><i style="display:none;" class="fa fa-spinner fa-spin"></i>Submit form</button>
+    <button class="btn btn-primary" name="upload" type="submit">Submit form</button>
   </div>
 </form>
 </div>
@@ -178,7 +178,7 @@
 </script>
 <script>
 $( "form" ).submit(function() {
-  $('.fa').show();
+  return this.some_flag_variable;
 });
 </script>
 </body>
