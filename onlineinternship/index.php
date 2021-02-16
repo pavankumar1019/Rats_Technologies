@@ -95,28 +95,28 @@
   </div>
   <div class="col-md-3">
     <label for="validationCustom03" class="form-label">Course Obtained in UG</label>
-    <input type="text" name="courseug" class="form-control" id="validationCustom03" required>
+    <input type="text" name="courseug" value="null" class="form-control" id="validationCustom03" required>
     <div class="invalid-feedback">
       Please provide Course Obtained in UG.
     </div>
   </div>
   <div class="col-md-3">
     <label for="validationCustom03" class="form-label">Percentage Obtained in UG (%)</label>
-    <input type="text" name="ugper" class="form-control" onkeypress="javascript:return isNumber(event)" id="validationCustom03" required>
+    <input type="text" name="ugper" value="0" class="form-control" onkeypress="javascript:return isNumber(event)" id="validationCustom03" required>
     <div class="invalid-feedback">
       Please provide Percentage Obtained in UG (%).
     </div>
   </div>
   <div class="col-md-3">
     <label for="validationCustom03" class="form-label">Course Obtained in PG</label>
-    <input type="text" name="coursepg" class="form-control"  id="validationCustom03" required>
+    <input type="text" name="coursepg" value="null" class="form-control"  id="validationCustom03" required>
     <div class="invalid-feedback">
       Please provide Course Obtained in PG.
     </div>
   </div>
   <div class="col-md-3">
     <label for="validationCustom03" class="form-label">Percentage Obtained in PG (%)</label>
-    <input type="text" name="pgper" class="form-control" onkeypress="javascript:return isNumber(event)" id="validationCustom03" required>
+    <input type="text" name="pgper" value="0" class="form-control" onkeypress="javascript:return isNumber(event)" id="validationCustom03" required>
     <div class="invalid-feedback">
       Please provide Percentage Obtained in PG (%).
     </div>
