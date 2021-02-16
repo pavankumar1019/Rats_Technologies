@@ -13,9 +13,7 @@
             <div class="d-flex justify-content-center">
             <div><h1>Rats Technologies</h1></div>            
             </div>
-            <div class="d-flex justify-content-center">
-            <div><h1>Rats Technologies</h1></div>          
-            </div>
+
             <div class="d-flex justify-content-center">
             <div>    <h4>Bangarpet</h4></div>          
             </div>
