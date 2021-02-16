@@ -77,7 +77,7 @@
       Please provide Percentage Obtained in PG (%).
     </div>
   </div>
-  <div class="col-md-8>
+  <div class="col-md-6>
     <label for="validationCustom03" class="form-label">Address</label>
     <input type="text" class="form-control" id="validationCustom03" required>
     <div class="invalid-feedback">
@@ -85,7 +85,7 @@
     </div>
   </div>
  
-  <div class="col-md-4">
+  <div class="col-md-6">
     <label for="validationCustom05" class="form-label">Upload CV/Resume</label>
     <input class="form-control form-control-lg" id="validationCustom05" type="file" required/>
     <div class="invalid-feedback">
