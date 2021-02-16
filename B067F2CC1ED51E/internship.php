@@ -522,8 +522,8 @@ $msg = "";
                                                     <span class="block-email"><?php echo $row["puc_per"];?></span>
                                                 </td>
                                                 <td class="desc"><?php echo $row["course_ug"];?></td>
-                                                <td class="desc"><?php echo $row["ug_per"];?></td>
                                                 <td class="desc"><?php echo $row["course_pg"];?></td>
+                                                <td class="desc"><?php echo $row["ug_per"];?></td>
                                                 <td class="desc"><?php echo $row["pg_per"];?></td>
                                                 <td class="desc"><?php echo $row["address"];?></td>
 
