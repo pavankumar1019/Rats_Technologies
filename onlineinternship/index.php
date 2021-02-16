@@ -18,7 +18,7 @@
             <div>    <h4>Bangarpet</h4></div>          
             </div>
             <div class="d-flex justify-content-center">
-            <div>    <h6>ratstechnologies.com</h6></div>          
+            <div>    <h6>visit:- ratstechnologies.com</h6></div>          
             </div>
             <div class="d-flex justify-content-center">
             <div>   <h6> phone:- 9900651851</h6></div>          
