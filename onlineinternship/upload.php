@@ -1,12 +1,21 @@
 <?php
-session_start();
-if(!isset($_SESSION['userData'])){
-	header('location: ../careers/index.php');
-}
 include_once '../PHP/database.php';
 if(isset($_POST['upload']))
 {   
-     
+ 
+  $name=$_POST['name']; 
+  $email=$_POST['email']; 
+  $mobile=$_POST['mobile']; 
+  $sslcper=$_POST['sslcper']; 
+  $pucper=$_POST['pucper']; 
+  $courseug=$_POST['courseug']; 
+  $ugper=$_POST['ugper']; 
+  $coursepg=$_POST['coursepg']; 
+  $pgper=$_POST['pgper']; 
+  $address=$_POST['address']; 
+
+
+
  $file = rand(1000,100000)."-".$_FILES['file']['name'];
     $file_loc = $_FILES['file']['tmp_name'];
  $file_size = $_FILES['file']['size'];
@@ -25,7 +34,7 @@ if(isset($_POST['upload']))
  
  if(move_uploaded_file($file_loc,$folder.$final_file))
  {
-  $sql="INSERT INTO cv (full_name,email,contact,address,skills,languages,city,state,resume,job_profile) VALUES('".$_POST["name"]."','".$_POST["email"]."','".$_POST["contact"]."','".$_POST["address"]."','".$_POST["skills"]."','".$_POST["languages"]."','".$_POST["city"]."','".$_POST["state"]."','$final_file','".$_POST["job_profile"]."')";
+  $sql="INSERT INTO internship_data(name,email,mobile,sslc_per,puc_per,course_ug,ug_per,course_pg,pg_per,address,cv) VALUES('".$_POST["name"]."','".$_POST["email"]."','".$_POST["mobile"]."','".$_POST["sslcper"]."','".$_POST["pucper"]."','".$_POST["courseug"]."','".$_POST["ugper"]."','".$_POST["coursepg"]."','".$_POST["pgper"]."','".$_POST["address"]."','$final_file')";
   mysqli_query($conn,$sql);
   
   
