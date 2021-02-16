@@ -36,13 +36,10 @@ if(isset($_POST['upload']))
  {
   $sql="INSERT INTO internship_data(name,email,mobile,sslc_per,puc_per,course_ug,ug_per,course_pg,pg_per,address,cv) VALUES('".$_POST["name"]."','".$_POST["email"]."','".$_POST["mobile"]."','".$_POST["sslcper"]."','".$_POST["pucper"]."','".$_POST["courseug"]."','".$_POST["ugper"]."','".$_POST["coursepg"]."','".$_POST["pgper"]."','".$_POST["address"]."','$final_file')";
   mysqli_query($conn,$sql);
-  
-  
-  echo "<script>
-alert('Thank You!. Rats technologies will notify updates');
-window.location.href='../index.html';
-</script>";  
-  
+  session_start();
+  $_SESSION['success_message'] = "Your application submitted.!";
+    header('location: index.php');
+    exit(); 
  }
  else
  {

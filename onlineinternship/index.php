@@ -28,6 +28,12 @@
             </div>
 </div>
 <br>
+<?php if (isset($_SESSION['success_message']) && !empty($_SESSION['success_message'])) { ?>
+                        <div  class="container alert alert-success" role="alert"><?php echo $_SESSION['success_message']; ?></div>
+                        <?php
+                        unset($_SESSION['success_message']);
+                    }
+                    ?>
 <div class="container-fluid">
 
 <form class="row g-3 needs-validation" action="upload.php" method="post" enctype="multipart/form-data" novalidate>
